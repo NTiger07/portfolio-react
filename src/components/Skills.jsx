@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Skills extends Component {
   render() {
-    return <div></div>;
+    return <div className="skills_section"></div>;
   }
 }
 

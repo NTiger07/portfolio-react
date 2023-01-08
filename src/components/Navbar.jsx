@@ -9,10 +9,18 @@ export default class Navbar extends Component {
         </div>
         <div className="links_container">
           <ul>
-            <li>About Me</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li>
+              <a href="">About Me</a>
+            </li>
+            <li>
+              <a href="">Skills</a>
+            </li>
+            <li>
+              <a href="">Projects</a>
+            </li>
+            <li>
+              <a href="">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
