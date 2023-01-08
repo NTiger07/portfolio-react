@@ -8,7 +8,12 @@ export default class Navbar extends Component {
           <img src="" alt="logo" />
         </div>
         <div className="links_container">
-          <ul></ul>
+          <ul>
+            <li>About Me</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
         </div>
       </div>
     );
