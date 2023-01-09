@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./NAvbar.css";
+import "./Navbar.css";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar_container">
         <div className="logo_container">
-          <span>Favour Olaleru</span>
+          <a href="/">Favour Olaleru</a>
         </div>
         <div className="links_container">
           <ul>
