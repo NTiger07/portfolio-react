@@ -23,9 +23,15 @@ export default class Hero extends Component {
           </p>
         </div>
         <div className="hero_section-links">
-          <img src={twitter} alt="twitter" />
-          <img src={linkedin} alt="linkedin" />
-          <img src={github} alt="github" />
+          <a href="https://twitter.com/FavourOlaleru">
+            <img src={twitter} alt="twitter" />
+          </a>
+          <a href="https://www.linkedin.com/in/favour-olaleru-1a5133218/">
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          <a href="https://github.com/NTiger07">
+            <img src={github} alt="github" />
+          </a>
         </div>
       </div>
     );
