@@ -11,8 +11,8 @@ export default class Hero extends Component {
       <div className="hero_section">
         <Navbar />
         <div className="hero_section-content">
-          <span>HI, MY NAME IS</span>
-          <h1>Favour Olaleru.</h1>
+          <h1>HI, MY NAME IS</h1>
+          <span>Favour Olaleru.</span>
           <span>I am a Front-End Developer.</span>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto

@@ -1,0 +1,35 @@
+.hero_section {
+  height: 100vh;
+  background-color: #263359;
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+.hero_section-content {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.hero_section-content span {
+  background: linear-gradient(to right, #3da2f0, #f11e1e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+  font-weight: 900;
+}
+.hero_section-content p {
+  text-align: center;
+  font-size: 22px;
+  width: 70%;
+}
+.hero_section-links {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 35vw;
+  padding-right: 35vw;
+}
+.hero_section-links img {
+  width: 40px;
+}

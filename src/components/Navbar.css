@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 .navbar_container {
   background-color: #263359;
-  padding: 2.5vh 7vw;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
