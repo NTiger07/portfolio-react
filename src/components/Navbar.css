@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+.navbar_container {
+  background-color: #263359;
+  padding: 2.5vh 7vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo_container a {
   font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.nav-list {
+  display: flex;
+}
+.nav-links a {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 18px;
+  font-weight: 600;
+}
+.nav-links a:hover {
+  transition: all 0.3s ease-in;
+  background: linear-gradient(to right, #3da2f0, #f11e1e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -8,19 +8,19 @@ export default class Navbar extends Component {
         <div className="logo_container">
           <a href="/">Favour Olaleru</a>
         </div>
-        <div className="links_container">
-          <ul>
-            <li>
-              <a href="">About Me</a>
+        <div className="navlinks_container">
+          <ul className="nav-list">
+            <li className="nav-links">
+              <a href="#">Home</a>
             </li>
-            <li>
-              <a href="">Skills</a>
+            <li className="nav-links">
+              <a href="#">About Me</a>
             </li>
-            <li>
-              <a href="">Projects</a>
+            <li className="nav-links">
+              <a href="#">Skills</a>
             </li>
-            <li>
-              <a href="">Contact</a>
+            <li className="nav-links">
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>
