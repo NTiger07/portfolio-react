@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
+import "./Hero.css";
 
 export default class Hero extends Component {
   render() {
