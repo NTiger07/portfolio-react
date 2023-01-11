@@ -10,10 +10,10 @@ export default function App() {
   return (
     <div className="main_container">
       <Hero />
-      {/* <About />
+      <About />
       <Skills />
       <Projects />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 }
