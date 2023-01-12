@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="skills_section">
-        <h2>Tools I use</h2>
+        <h2>MY ECOSYSTEM</h2>
       </div>
     );
   }
