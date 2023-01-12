@@ -5,11 +5,11 @@ class About extends Component {
   render() {
     return (
       <div className="about_section">
+        <h1>ABOUT ME</h1>
         <div className="about_section-image">
           <img src="" alt="svgillustration" />
         </div>
         <div className="about_section-content">
-          <h2>ABOUT ME</h2>
           <span>I'm Favour Olaleru</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum in
