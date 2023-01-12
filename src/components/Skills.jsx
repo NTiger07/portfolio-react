@@ -15,33 +15,42 @@ class Skills extends Component {
     return (
       <div className="skills_section">
         <h2>MY ECOSYSTEM</h2>
-        <div>
+        <div className="skills_content">
           <span>
-            <img src="" alt="" />
+            <img src={html} alt="html" />
+            HTML
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={css} alt="css" />
+            CSS
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={js} alt="js" />
+            JavaScript
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={ts} alt="ts" />
+            TypeScript
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={react} alt="react" />
+            ReactJS
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={node} alt="node" />
+            NodeJS
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={git} alt="git" />
+            Git
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={github} alt="github" />
+            GitHub
           </span>
           <span>
-            <img src="" alt="" />
+            <img src={vscode} alt="vscode" />
+            VSCode
           </span>
         </div>
       </div>
