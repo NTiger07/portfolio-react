@@ -1,4 +1,15 @@
 .about_section {
   display: flex;
   height: 60vh;
+  background-color: #1b2430;
+  align-items: center;
+}
+.about_section-image {
+  width: 40%;
+  height: 40vh;
+  background-color: #fff;
+}
+.about_section-content {
+  width: 50%;
+  margin-left: 20px;
 }
