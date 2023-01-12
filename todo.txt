@@ -1,3 +1,5 @@
 chatgpt about and shit
 sasuke animation gsap
 moving background color
+
+netlify

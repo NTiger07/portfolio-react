@@ -11,7 +11,6 @@ import express from "../assets/expressjs.svg";
 import git from "../assets/Git.svg";
 import github from "../assets/Github-Dark.svg";
 import vscode from "../assets/VSCode-Dark.svg";
-import netlify from "../assets/netlify.svg";
 import nodemon from "../assets/nodemon.svg";
 import npm from "../assets/npmjs.svg";
 import "./Skills.css";
@@ -78,10 +77,10 @@ class Skills extends Component {
             <img src={vscode} alt="vscode" />
             VSCode
           </span>
-          <span>
+          {/* <span>
             <img src={netlify} alt="netlify" />
             Netlify
-          </span>
+          </span> */}
         </div>
       </div>
     );
