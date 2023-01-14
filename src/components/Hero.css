@@ -1,6 +1,6 @@
 .hero_section {
   height: 100vh;
-  background-color: #1B2430;
+  background-color: #1b2430;
   padding-left: 7vw;
   padding-right: 7vw;
 }
@@ -13,13 +13,63 @@
   color: #fff;
 }
 .hero_section-content span {
-  background: linear-gradient(to right, #3da2f0, #f11e1e);
+  background: linear-gradient(270deg, #184f7a, #f11e1e, #184f7a, #f11e1e);
+  background-size: 800% 800%;
+  -webkit-animation: NameAnimation 9s ease infinite;
+  -moz-animation: NameAnimation 9s ease infinite;
+  -o-animation: NameAnimation 9s ease infinite;
+  animation: NameAnimation 9s ease infinite;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 5rem;
   font-weight: 900;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+@-webkit-keyframes NameAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 91%;
+  }
+  100% {
+    background-position: 0% 10%;
+  }
+}
+@-moz-keyframes NameAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 91%;
+  }
+  100% {
+    background-position: 0% 10%;
+  }
+}
+@-o-keyframes NameAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 91%;
+  }
+  100% {
+    background-position: 0% 10%;
+  }
+}
+@keyframes NameAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 91%;
+  }
+  100% {
+    background-position: 0% 10%;
+  }
 }
 .hero_section-content p {
   text-align: center;
