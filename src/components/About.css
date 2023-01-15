@@ -9,6 +9,7 @@
 }
 .about_section h1 {
   overflow: hidden;
+  color: #184f7a;
 }
 .row {
   display: flex;
@@ -33,6 +34,9 @@
 }
 .about_section-content span {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: bold;
+}
+.about_section-content p {
+  font-size: 1.1vw;
 }
