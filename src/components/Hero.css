@@ -13,6 +13,9 @@
   align-items: center;
   color: #fff;
 }
+.hero_section-content h1 {
+  color: #184f7a;
+}
 .hero_section-content span {
   background: linear-gradient(270deg, #184f7a, #f11e1e, #184f7a, #f11e1e);
   background-size: 800% 800%;
