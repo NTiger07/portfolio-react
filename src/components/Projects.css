@@ -8,6 +8,11 @@
   padding-right: 7vw;
   color: #fff;
 }
+.projects_section h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #184f7a;
+}
 .projects_container {
   display: flex;
 }
@@ -15,9 +20,9 @@
   display: flex;
   width: 100%;
   height: 35vh;
-  border-radius: 8px;
 }
 .project_image {
+  border-radius: 8px;
   width: 30%;
   background-color: #184f7a;
 }
