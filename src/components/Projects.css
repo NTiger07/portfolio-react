@@ -6,41 +6,39 @@
   padding-bottom: 7vh;
   padding-left: 7vw;
   padding-right: 7vw;
-}
-.projects_section h1 {
-  color: #184f7a;
-  text-align: center;
+  color: #fff;
 }
 .projects_container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 .project_card {
   display: flex;
-  flex-direction: column;
-  background-color: antiquewhite;
-  width: 25vw;
-  height: 65vh;
+  width: 100%;
+  height: 35vh;
   border-radius: 8px;
 }
 .project_image {
-  height: 50%;
+  width: 30%;
   background-color: #184f7a;
 }
 .project_content {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   display: flex;
   flex-direction: column;
-  height: 50%;
+  width: 70%;
+  background-color: #0f1318;
   padding-left: 1vw;
   padding-right: 1vw;
 }
-.project_tools span {
+.project-title {
+  font-size: 1.2vw;
   padding-bottom: 20px;
 }
+.project_tools span {
+}
 .tools_content span {
-  background-color: white;
-  box-shadow: 1px 1px 7px #858585;
+  background-color: #253345;
   border-radius: 6px;
   padding: 2px 5px;
   margin-right: 20px;

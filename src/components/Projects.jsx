@@ -12,7 +12,7 @@ class Projects extends Component {
               <img src="" alt="projectimage" />
             </div>
             <div className="project_content">
-              <span>
+              <span className="project-title">
                 <b>QUE MIRAS BOBO</b>
               </span>
               <p>
