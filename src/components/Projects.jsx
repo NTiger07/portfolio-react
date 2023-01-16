@@ -13,7 +13,7 @@ class Projects extends Component {
             </div>
             <div className="project_content">
               <span>
-                <b>LIGMA</b>
+                <b>QUE MIRAS BOBO</b>
               </span>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
