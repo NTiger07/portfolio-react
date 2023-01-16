@@ -21,6 +21,10 @@
   flex-direction: column;
   background-color: antiquewhite;
   width: 25vw;
-  height: 55vh;
+  height: 60vh;
   border-radius: 8px;
+}
+.project_image {
+  height: 50%;
+  background-color: #184f7a;
 }
