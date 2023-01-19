@@ -8,8 +8,10 @@
 }
 .logo_container a {
   font-family: "Sacramento", cursive;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 700;
+  margin-left: 2px;
+  margin-right: 4px;
 }
 .nav-list {
   display: flex;
