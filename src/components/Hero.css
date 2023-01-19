@@ -110,14 +110,11 @@
   padding: 8px;
   background-color: transparent;
   font-size: 22px;
-  border: solid 2px;
+  border: solid 2px  rgb(55, 148, 227);
   border-radius: 6px;
   transition: all 0.3s ease-in;
-  background: linear-gradient(#3792e4, #31cabd, #3792e4, #f43b60, #3792e4);
-  background-clip: border-box;
 }
 .hero_section-contact button:hover {
   transform: scale(1.01);
   transition: all 0.3s ease-in;
-  /* border-color: ; */
 }
