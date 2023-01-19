@@ -34,6 +34,17 @@ export default class Hero extends Component {
             <img src={github} alt="github" />
           </a>
         </div>
+        <div className="hero_section-contact">
+          <button>
+            <a
+              href="mailto:falaleru@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact Me
+            </a>
+          </button>
+        </div>
       </div>
     );
   }

@@ -2,4 +2,8 @@ chatgpt about and shit
 sasuke animation gsap
 transition shit
 
+download font instead of import
+contact link not working
+scrollbar gradient
+contact gradient
 netlify
