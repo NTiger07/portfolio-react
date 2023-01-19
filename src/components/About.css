@@ -1,7 +1,7 @@
 .about_section {
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
   background-color: #253345;
   padding-top: 7vh;
   padding-left: 7vw;
@@ -9,7 +9,8 @@
 }
 .about_section h1 {
   overflow: hidden;
-  color: #184f7a;
+  color: #fff;
+  font-size: 3rem;
 }
 .row {
   display: flex;
