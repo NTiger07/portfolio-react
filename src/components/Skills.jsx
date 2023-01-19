@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import html from "../assets/HTML.svg";
-import css from "../assets/CSS.svg";
-import js from "../assets/JavaScript.svg";
-import ts from "../assets/TypeScript.svg";
-import react from "../assets/React-Dark.svg";
-import axios from "../assets/axios.svg";
-import api from "../assets/api.svg";
-import node from "../assets/NodeJS-Dark.svg";
-import express from "../assets/expressjs.svg";
-import git from "../assets/Git.svg";
-import github from "../assets/Github-Dark.svg";
-import vscode from "../assets/VSCode-Dark.svg";
-import nodemon from "../assets/nodemon.svg";
-import npm from "../assets/npmjs.svg";
+import html from "../svgs/HTML.svg";
+import css from "../svgs/CSS.svg";
+import js from "../svgs/JavaScript.svg";
+import ts from "../svgs/TypeScript.svg";
+import react from "../svgs/React-Dark.svg";
+import axios from "../svgs/axios.svg";
+import api from "../svgs/api.svg";
+import node from "../svgs/NodeJS-Dark.svg";
+import express from "../svgs/expressjs.svg";
+import git from "../svgs/Git.svg";
+import github from "../svgs/Github-Dark.svg";
+import vscode from "../svgs/VSCode-Dark.svg";
+import nodemon from "../svgs/nodemon.svg";
+import npm from "../svgs/npmjs.svg";
 import "./Skills.css";
 
 class Skills extends Component {

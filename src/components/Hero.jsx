@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import twitter from "../assets/twitter.svg";
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.svg";
+import twitter from "../svgs/twitter.svg";
+import linkedin from "../svgs/linkedin.svg";
+import github from "../svgs/github.svg";
 import "./Hero.css";
 
 export default class Hero extends Component {
@@ -13,7 +13,7 @@ export default class Hero extends Component {
         <div className="hero_section-content">
           <h1>HI, MY NAME IS</h1>
           <span>Favour Olaleru.</span>
-          <span>I am a Front-End Developer.</span>
+          <span>I Am A Front-End Developer.</span>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
             pariatur repudiandae molestiae excepturi animi voluptatibus et
