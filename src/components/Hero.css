@@ -17,12 +17,19 @@
   color: #184f7a;
 }
 .hero_section-content span {
-  background: linear-gradient(270deg, #184f7a, #f11e1e, #184f7a, #f11e1e);
+  background: linear-gradient(
+    60deg,
+    #3792e4,
+    #31cabd,
+    #3792e4,
+    #f43b60,
+    #3792e4
+  );
   background-size: 800% 800%;
-  -webkit-animation: NameAnimation 9s ease infinite;
-  -moz-animation: NameAnimation 9s ease infinite;
-  -o-animation: NameAnimation 9s ease infinite;
-  animation: NameAnimation 9s ease infinite;
+  -webkit-animation: NameAnimation 15s ease infinite;
+  -moz-animation: NameAnimation 15s ease infinite;
+  -o-animation: NameAnimation 15s ease infinite;
+  animation: NameAnimation 15s ease infinite;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 5vw;
