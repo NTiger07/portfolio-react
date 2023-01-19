@@ -43,8 +43,8 @@
   padding-top: 20px;
 }
 .tools_content {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .tools_content span {
   background-color: #253345;
