@@ -5,5 +5,5 @@ transition shit
 download font instead of import
 contact link not working
 scrollbar gradient
-contact gradient
+button icons
 netlify
