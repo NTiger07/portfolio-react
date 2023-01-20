@@ -41,7 +41,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="project_card">
+          <div className="project_card even">
             <div className="project_image">
               <img src="" alt="projectimage" />
             </div>
@@ -109,7 +109,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="project_card">
+          <div className="project_card even">
             <div className="project_image">
               <img src="" alt="projectimage" />
             </div>
