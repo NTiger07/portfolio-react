@@ -2,7 +2,7 @@ chatgpt about and shit
 sasuke animation gsap
 transition shit
 
-download font instead of import
+install font
 contact link not working
 scrollbar gradient
 button icons
