@@ -33,7 +33,11 @@
   display: flex;
   flex-direction: column;
   width: 70%;
-  padding-left: 1vw;
+  padding-left: 2vw;
+}
+.project_content p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .project-title {
   font-size: 1.2vw;
