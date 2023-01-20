@@ -56,3 +56,22 @@
   padding: 2px 5px;
   margin-right: 20px;
 }
+.project_links {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.project_links button {
+  background-color: black;
+  padding: 8px;
+  background-color: transparent;
+  font-size: 1vw;
+  border: solid 2px rgb(55, 148, 227);
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+}
+.project_links button:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease-in;
+  border: solid 2px #fff;
+}
