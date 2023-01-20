@@ -10,7 +10,7 @@
 }
 .projects_section h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 .projects_container {
@@ -20,7 +20,7 @@
 .project_card {
   display: flex;
   width: 100%;
-  height: 40vh;
+  height: 42vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
@@ -47,7 +47,7 @@
   font-size: 1.2vw;
 }
 .project-title {
-  font-size: 1.5vw;
+  font-size: 2rem;
   padding-bottom: 20px;
 }
 .project_tools span {

@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects_section">
-        <h1>My Projects</h1>
+        <h1>MY PROJECTS</h1>
         <div className="projects_container">
           <div className="project_card">
             <div className="project_image">
