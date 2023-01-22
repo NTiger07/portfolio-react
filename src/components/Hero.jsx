@@ -15,12 +15,10 @@ export default class Hero extends Component {
           <span>Favour Olaleru.</span>
           <span>I Am A Front-End Developer.</span>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-            pariatur repudiandae molestiae excepturi animi voluptatibus et
-            laudantium deleniti, ut rem totam facilis recusandae amet quis
-            incidunt voluptas. Ratione laborum magnam officiis quibusdam cum
-            quo, beatae modi quis nisi, aliquid atque eveniet animi at quod
-            placeat!
+            I am a skilled frontend developer with expertise in HTML, CSS,
+            JavaScript, and React. I develop user-friendly web interfaces that
+            are visually appealing and easy to navigate, with a focus on
+            creating seamless user experience.
           </p>
         </div>
         <div className="hero_section-links">

@@ -13,18 +13,17 @@ class About extends Component {
           <div className="about_section-content">
             <span>I'm Favour Olaleru</span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum
-              in commodi obcaecati aspernatur reiciendis omnis at nisi saepe
-              asperiores, vero tempora suscipit voluptate vel officia facilis
-              delectus! Deserunt odit perferendis enim voluptatibus quisquam
-              nemo.
+              I specialize in designing and developing user-friendly web
+              interfaces that are visually appealing and easy to navigate. With
+              a solid understanding of HTML, CSS, and JavaScript, I am able to
+              create responsive and interactive websites that adapt to various
+              screen sizes and devices.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eum
-              in commodi obcaecati aspernatur reiciendis omnis at nisi saepe
-              asperiores, vero tempora suscipit voluptate vel officia facilis
-              delectus! Deserunt odit perferendis enim voluptatibus quisquam
-              nemo.
+              My skills also include the use of frameworks such as React, as
+              well as working with APIs to connect the frontend to the backend.
+              My goal is to create a seamless user experience that enhances
+              engagement and drives conversions.
             </p>
           </div>
         </div>
