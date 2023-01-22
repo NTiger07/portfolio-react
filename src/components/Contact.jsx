@@ -8,24 +8,6 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const name = e.target.from_name.value;
-    const email = e.target.from_email.value;
-    const subject = e.target.user_subject.value;
-    const message = e.target.message.value;
-
-    const overall =
-      "Name: " +
-      name +
-      "\n" +
-      "Email: " +
-      email +
-      "\n" +
-      "Subject: " +
-      subject +
-      "\n" +
-      "Message: " +
-      message;
-    //
     emailjs
       .sendForm(
         "service_t2crjsn",
