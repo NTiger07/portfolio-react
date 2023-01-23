@@ -18,6 +18,7 @@
   height: 90%;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 70px;
 }
 form {
   display: flex;
@@ -32,17 +33,21 @@ textarea {
   margin-top: 10px;
   margin-bottom: 10px;
   width: 55vw;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   outline: none;
   color: #fff;
   resize: vertical;
+  font-family: "Lexend Deca", sans-serif;
 }
 input:focus,
 textarea:focus {
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
+}
+textarea {
+  height: 150px;
 }
 #submitBtn {
   margin-top: 40px;
@@ -54,6 +59,7 @@ textarea:focus {
   transition: all 0.3s ease-in;
   width: 20vw;
   cursor: pointer;
+  resize: none;
 }
 #submitBtn:hover {
   transform: scale(1.01);
