@@ -46,11 +46,7 @@ export default class Hero extends Component {
         </div>
         <div className="hero_section-contact">
           <button>
-            <a
-              href="mailto:falaleru@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="falaleru@gmail.com" target="_blank" rel="noreferrer">
               Contact Me
             </a>
           </button>
