@@ -28,16 +28,12 @@ export default function Contact() {
   return (
     <div className="contact_section">
       <h1>CONTACT ME</h1>
-      <div>
+      <div className="form_container">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="from_name" />
-          <label>Email</label>
-          <input type="email" name="from_email" />
-          <label>Subject</label>
-          <input type="text" name="user_subject" />
-          <label>Message</label>
-          <textarea name="message" />
+          <input type="text" name="from_name" placeholder="Name" />
+          <input type="email" name="from_email" placeholder="Email" />
+          <input type="text" name="user_subject" placeholder="Subject" />
+          <textarea name="message" placeholder="Write Message" />
           <input type="submit" value="Send" />
         </form>
       </div>

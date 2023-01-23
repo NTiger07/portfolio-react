@@ -7,3 +7,5 @@ contact link not working
 scrollbar gradient
 button icons
 netlify
+
+RESPONSIVE
