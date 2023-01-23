@@ -30,10 +30,29 @@ export default function Contact() {
       <h1>CONTACT ME</h1>
       <div className="form_container">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="from_name" placeholder="Name" />
-          <input type="email" name="from_email" placeholder="Email" />
-          <input type="text" name="user_subject" placeholder="Subject" />
-          <textarea name="message" placeholder="Write Message" />
+          <input
+            type="text"
+            name="from_name"
+            placeholder="Name"
+            autoComplete="off"
+          />
+          <input
+            type="email"
+            name="from_email"
+            placeholder="Email"
+            autoComplete="off"
+          />
+          <input
+            type="text"
+            name="user_subject"
+            placeholder="Subject"
+            autoComplete="off"
+          />
+          <textarea
+            name="message"
+            placeholder="Write Message"
+            autoComplete="off"
+          />
           <input type="submit" value="Send" id="submitBtn" />
         </form>
       </div>
