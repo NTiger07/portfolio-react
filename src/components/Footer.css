@@ -4,14 +4,23 @@
   padding-bottom: 7vh;
   padding-left: 7vw;
   padding-right: 7vw;
+  color: #fff;
+}
+.footer_section span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 .footer_section button {
-  padding: 8px;
+  padding: 10px;
   background-color: transparent;
   font-size: 22px;
+  font-weight: 700;
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
   transition: all 0.3s ease-in;
+  margin-left: 15px;
 }
 .footer_section button:hover {
   transform: scale(1.01);
