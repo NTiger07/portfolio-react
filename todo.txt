@@ -8,3 +8,4 @@ netlify
 
 RESPONSIVE
 CleanUP
+Changing tab title on nav switch 
