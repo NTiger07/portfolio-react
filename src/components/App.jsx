@@ -15,6 +15,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
+      <div className="footerroof"></div>
       <Footer />
     </div>
   );
