@@ -4,6 +4,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import "../App.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
