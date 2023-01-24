@@ -5,6 +5,9 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+
+import "../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf";
+import "../fonts/Sacramento/Sacramento-Regular.ttf";
 import "../App.css";
 
 export default function App() {

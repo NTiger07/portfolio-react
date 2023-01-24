@@ -2,7 +2,6 @@ chatgpt project description
 loading for contact
 transition shit
 
-install font
 contact link not working
 button icons
 netlify
