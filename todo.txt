@@ -4,11 +4,9 @@ transition shit
 
 install font
 contact link not working
-scrollbar gradient
 button icons
 netlify
 
 RESPONSIVE
 ROUTING FOR NAVBAR
-CONVERT ALL CSS TO MODULES
 CleanUP
