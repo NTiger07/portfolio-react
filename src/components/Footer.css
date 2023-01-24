@@ -5,3 +5,16 @@
   padding-left: 7vw;
   padding-right: 7vw;
 }
+.footer_section button {
+  padding: 8px;
+  background-color: transparent;
+  font-size: 22px;
+  border: solid 2px rgb(55, 148, 227);
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+}
+.footer_section button:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease-in;
+  border: solid 2px #fff;
+}

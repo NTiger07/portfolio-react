@@ -30,7 +30,7 @@ export default class Hero extends Component {
             <img src={twitter} alt="twitter" />
           </a>
           <a
-            href="https://www.linkedin.com/in/favour-olaleru-1a5133218/"
+            href="https://www.linkedin.com/in/favourolaleru/"
             target="_blank"
             rel="noreferrer"
           >
