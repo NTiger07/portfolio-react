@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
 import twitter from "../svgs/twitter.svg";
 import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
@@ -9,7 +8,6 @@ export default class Hero extends Component {
   render() {
     return (
       <div className="hero_section">
-        <Navbar />
         <div className="hero_section-content">
           <h1>HI, MY NAME IS</h1>
           <span>Favour Olaleru.</span>

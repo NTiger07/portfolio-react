@@ -1,10 +1,13 @@
 .navbar_container {
-  background-color: #1b2430;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  background-color: transparent;
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 15vh;
 }
 .logo_container a {
   font-family: "Sacramento", cursive;

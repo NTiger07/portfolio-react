@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
@@ -13,13 +15,59 @@ import "../App.css";
 export default function App() {
   return (
     <div className="main_container">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <div className="footerroof"></div>
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Hero />
+                <About />
+                <Skills />
+                <Projects />
+                <Contact />
+                <div className="footerroof"></div>
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="about"
+            element={
+              <>
+                <Navbar />
+                <About />
+                <Skills />
+                <div className="footerroof"></div>
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="skills"
+            element={
+              <>
+                <Navbar />
+                <Skills />
+                <div className="footerroof"></div>
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="contact"
+            element={
+              <>
+                <Navbar />
+                <Contact />
+                <div className="footerroof"></div>
+                <Footer />
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
