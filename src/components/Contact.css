@@ -46,6 +46,7 @@ input:focus,
 textarea:focus {
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
+  transition: all 0.3s ease-in;
 }
 textarea {
   height: 150px;
