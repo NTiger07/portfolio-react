@@ -68,7 +68,7 @@
 .project_links {
   display: flex;
   justify-content: space-between;
-  width: 26%;
+  width: 28%;
 }
 .project_links button {
   background-color: black;
