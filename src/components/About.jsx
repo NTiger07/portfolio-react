@@ -25,6 +25,12 @@ class About extends Component {
               My goal is to create a seamless user experience that enhances
               engagement and drives conversions.
             </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              harum laborum temporibus, iure minima ut ducimus ullam maxime
+              nesciunt molestias id, iste officiis nihil? Fugit facilis facere
+              cum temporibus numquam.
+            </p>
           </div>
         </div>
       </div>

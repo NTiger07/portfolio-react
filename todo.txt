@@ -9,3 +9,5 @@ netlify
 RESPONSIVE
 CleanUP
 Changing tab title on nav switch 
+ADD PROJECTS ABOUT LINK IMAGE AND SHIT
+about section text
