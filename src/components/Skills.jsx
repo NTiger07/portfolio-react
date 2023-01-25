@@ -13,6 +13,7 @@ import github from "../svgs/Github-Dark.svg";
 import vscode from "../svgs/VSCode-Dark.svg";
 import nodemon from "../svgs/nodemon.svg";
 import npm from "../svgs/npmjs.svg";
+import netlify from "../svgs/netlify.svg";
 import "./Skills.css";
 
 class Skills extends Component {
@@ -60,6 +61,10 @@ class Skills extends Component {
           <span>
             <img src={nodemon} alt="nodemon" />
             Nodemon
+          </span>
+          <span>
+            <img src={netlify} alt="netlify" />
+            Netlify
           </span>
           <span>
             <img src={npm} alt="npm" />

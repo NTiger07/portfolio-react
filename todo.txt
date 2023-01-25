@@ -4,7 +4,6 @@ transition shit
 
 contact link not working
 button icons
-netlify
 
 RESPONSIVE
 CleanUP **
