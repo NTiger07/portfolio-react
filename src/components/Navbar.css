@@ -27,7 +27,7 @@
 }
 .nav-links a:hover {
   transition: all 0.3s ease-in;
-  background: linear-gradient(to right, #3da2f0, #f11e1e);
+  background: linear-gradient(60deg, #3792e4, #31cabd);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
