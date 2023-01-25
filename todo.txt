@@ -7,7 +7,6 @@ button icons
 netlify
 
 RESPONSIVE
-CleanUP
-Changing tab title on nav switch 
+CleanUP **
 ADD PROJECTS ABOUT LINK IMAGE AND SHIT
 about section text
