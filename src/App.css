@@ -9,6 +9,9 @@
   scroll-behavior: smooth;
   font-family: "Lexend_Deca", sans-serif;
 }
+div {
+  overflow: hidden;
+}
 @font-face {
   font-family: "Lexend_Deca";
   src: local("Lexend_Deca"),

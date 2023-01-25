@@ -52,6 +52,7 @@
 }
 .project_tools span {
   padding-top: 20px;
+  font-size: 22px;
 }
 .tools_content {
   padding-top: 20px;
@@ -62,11 +63,12 @@
   border-radius: 6px;
   padding: 2px 5px;
   margin-right: 20px;
+  font-size: 18px;
 }
 .project_links {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 26%;
 }
 .project_links button {
   background-color: black;
