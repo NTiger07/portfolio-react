@@ -4,7 +4,7 @@ import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Footer.css";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <div className="footer_section">
       <span>
@@ -41,4 +41,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;

@@ -3,7 +3,7 @@ import LoadingSpinner from "./LoadingSpinner";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
-export default function Contact() {
+const Contact = () => {
   const [isLoading, setIsLoading] = React.useState(false);
   const form = useRef();
 
@@ -67,4 +67,5 @@ export default function Contact() {
       </div>
     </div>
   );
-}
+};
+export default Contact;

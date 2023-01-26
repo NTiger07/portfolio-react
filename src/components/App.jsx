@@ -12,7 +12,7 @@ import "../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf";
 import "../fonts/Sacramento/Sacramento-Regular.ttf";
 import "../App.css";
 
-export default function App() {
+const App = () => {
   return (
     <div className="main_container">
       <BrowserRouter>
@@ -70,4 +70,5 @@ export default function App() {
       </BrowserRouter>
     </div>
   );
-}
+};
+export default App;
