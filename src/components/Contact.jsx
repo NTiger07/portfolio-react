@@ -1,13 +1,15 @@
 import React, { useRef } from "react";
+import LoadingSpinner from "./LoadingSpinner";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 export default function Contact() {
+  const [isLoading, setIsLoading] = React.useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setIsLoading(true);
     emailjs
       .sendForm(
         "service_t2crjsn",
@@ -19,9 +21,11 @@ export default function Contact() {
         (result) => {
           console.log(result.text);
           e.target.reset();
+          setIsLoading(false);
         },
         (error) => {
           console.log(error.text);
+          setIsLoading(false);
         }
       );
   };
@@ -55,6 +59,11 @@ export default function Contact() {
           />
           <input type="submit" value="Send" id="submitBtn" />
         </form>
+        {isLoading && (
+          <div className="loading_container">
+            <LoadingSpinner />
+          </div>
+        )}
       </div>
     </div>
   );
