@@ -19,7 +19,7 @@
   position: absolute;
   inset: 0px;
   margin: auto;
-  background: #de3500;
+  background: linear-gradient(60deg, #3792e4, #31cabd);
   animation: crlMugLoader 2s linear infinite alternate;
 }
 @keyframes crlMugLoader {
