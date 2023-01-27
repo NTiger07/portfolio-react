@@ -26,10 +26,9 @@ class About extends Component {
               engagement and drives conversions.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-              harum laborum temporibus, iure minima ut ducimus ullam maxime
-              nesciunt molestias id, iste officiis nihil? Fugit facilis facere
-              cum temporibus numquam.
+              In my spare time, I like to research the newest advancements in
+              Artificial Intelligence, read up on Tesla cars, enjoy playing
+              video games, and listen to music.
             </p>
           </div>
         </div>
