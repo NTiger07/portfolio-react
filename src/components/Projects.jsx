@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import recipe from "../projectimages/recipe.png";
+import weather from "../projectimages/weather.png";
+import room from "../projectimages/room.png";
+import easybank from "../projectimages/easybank.png";
+import repo from "../svgs/repo.svg";
+import website from "../svgs/website.svg";
 import "./Projects.css";
 
 class Projects extends Component {
@@ -9,136 +15,42 @@ class Projects extends Component {
         <div className="projects_container">
           <div className="project_card">
             <div className="project_image">
-              <img src="" alt="projectimage" />
+              <span>VGNUP</span>
+              <img src={recipe} alt="projectimage" />
             </div>
             <div className="project_content">
               <span className="project-title">
-                <b>QUE MIRAS BOBO</b>
+                <b>Recipe App</b>
               </span>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-                itaque quos beatae, veritatis quidem dolores a! Placeat rerum
-                vero quia assumenda temporibus, corporis, consequuntur ullam,
-                molestiae est laborum earum. Recusandae.
+                The recipe app is a web-based application built with React. It
+                utilizes the Edemam API to retrieve and display recipes based on
+                the user search queries. The app features a clean and intuitive
+                user interface that allows users to easily browse and search for
+                recipes by ingredients, diet, cuisine origin and meal type.
               </p>
               <div className="project_tools">
                 <span>
                   <b>Built with:</b>
                 </span>
                 <div className="tools_content">
-                  <span>Que</span>
-                  <span>Miras</span>
-                  <span>Bobo</span>
+                  <span>ReactJS</span>
+                  <span>Async API</span>
+                  <span>Hooks</span>
+                  <span>Edemam API</span>
+                  <span>Netlify</span>
                 </div>
               </div>
               <div className="project_links">
                 <button>
-                  <a href="">View Repo</a>
+                  <img src={repo} alt="reposvg" />
+                  <a href="https://github.com/NTiger07/Recipe-App-Build">
+                    View Repo
+                  </a>
                 </button>
-                <button>
-                  <a href="">View Website</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="project_card even">
-            <div className="project_image">
-              <img src="" alt="projectimage" />
-            </div>
-            <div className="project_content">
-              <span className="project-title">
-                <b>QUE MIRAS BOBO</b>
-              </span>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-                itaque quos beatae, veritatis quidem dolores a! Placeat rerum
-                vero quia assumenda temporibus, corporis, consequuntur ullam,
-                molestiae est laborum earum. Recusandae.
-              </p>
-              <div className="project_tools">
-                <span>
-                  <b>Built with:</b>
-                </span>
-                <div className="tools_content">
-                  <span>Que</span>
-                  <span>Miras</span>
-                  <span>Bobo</span>
-                </div>
-              </div>
-              <div className="project_links">
-                <button>
-                  <a href="">View Repo</a>
-                </button>
-                <button>
-                  <a href="">View Website</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="project_card">
-            <div className="project_image">
-              <img src="" alt="projectimage" />
-            </div>
-            <div className="project_content">
-              <span className="project-title">
-                <b>QUE MIRAS BOBO</b>
-              </span>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-                itaque quos beatae, veritatis quidem dolores a! Placeat rerum
-                vero quia assumenda temporibus, corporis, consequuntur ullam,
-                molestiae est laborum earum. Recusandae.
-              </p>
-              <div className="project_tools">
-                <span>
-                  <b>Built with:</b>
-                </span>
-                <div className="tools_content">
-                  <span>Que</span>
-                  <span>Miras</span>
-                  <span>Bobo</span>
-                </div>
-              </div>
-              <div className="project_links">
-                <button>
-                  <a href="">View Repo</a>
-                </button>
-                <button>
-                  <a href="">View Website</a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="project_card even">
-            <div className="project_image">
-              <img src="" alt="projectimage" />
-            </div>
-            <div className="project_content">
-              <span className="project-title">
-                <b>QUE MIRAS BOBO</b>
-              </span>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-                itaque quos beatae, veritatis quidem dolores a! Placeat rerum
-                vero quia assumenda temporibus, corporis, consequuntur ullam,
-                molestiae est laborum earum. Recusandae.
-              </p>
-              <div className="project_tools">
-                <span>
-                  <b>Built with:</b>
-                </span>
-                <div className="tools_content">
-                  <span>Que</span>
-                  <span>Miras</span>
-                  <span>Bobo</span>
-                </div>
-              </div>
-              <div className="project_links">
-                <button>
-                  <a href="">View Repo</a>
-                </button>
-                <button>
-                  <a href="">View Website</a>
+                <button id="live">
+                  <img src={website} alt="websitesvg" />
+                  <a href="https://vgnup.netlify.app">View Website</a>
                 </button>
               </div>
             </div>

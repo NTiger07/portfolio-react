@@ -20,7 +20,7 @@
 .project_card {
   display: flex;
   width: 100%;
-  height: 42vh;
+  height: 45vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
@@ -29,9 +29,22 @@
   flex-direction: row-reverse;
 }
 .project_image {
+  padding-top: 30px;
   border-radius: 8px;
   width: 30%;
-  background-color: #184f7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(60deg, #3792e4, #31cabd);
+}
+.project_image span {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.project_image img {
+  width: 90%;
+  border-radius: 8px;
 }
 .project_content {
   padding-top: 3vh;
@@ -61,23 +74,40 @@
 .tools_content span {
   background-color: #253345;
   border-radius: 6px;
-  padding: 2px 5px;
+  padding: 4px 10px;
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 700;
 }
 .project_links {
   display: flex;
   justify-content: space-between;
-  width: 28%;
+  width: 40%;
 }
 .project_links button {
   background-color: black;
-  padding: 8px;
+  padding: 8px 12px;
   background-color: transparent;
   font-size: 1vw;
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
   transition: all 0.3s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.project_links img {
+  width: 30px;
+  padding-right: 10px;
+}
+#live {
+  border: none;
+  transition: none;
+}
+#live:hover {
+  transition: none;
+  transform: none;
 }
 .project_links button:hover {
   transform: scale(1.01);
