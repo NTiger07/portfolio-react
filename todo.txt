@@ -7,5 +7,3 @@ button icons
 RESPONSIVE
 CleanUP **
 ADD PROJECTS ABOUT LINK IMAGE AND SHIT
-
-google analytics
