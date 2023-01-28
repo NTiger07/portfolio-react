@@ -46,7 +46,7 @@ export default class Hero extends Component {
           <button>
             <svg
               stroke="currentColor"
-              fill="currentColor"
+              fill="#fff"
               stroke-width="0"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"

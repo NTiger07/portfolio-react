@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import LoadingSpinner from "./LoadingSpinner";
 import emailjs from "@emailjs/browser";
+import send from "../svgs/send.svg";
 import "./Contact.css";
 
 const Contact = () => {
@@ -57,6 +58,7 @@ const Contact = () => {
             placeholder="Write Message"
             autoComplete="off"
           />
+
           <input type="submit" value="Send" id="submitBtn" />
         </form>
         {isLoading && (

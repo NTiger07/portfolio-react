@@ -110,9 +110,14 @@
   padding: 8px;
   background-color: transparent;
   font-size: 22px;
+  display: flex;
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
   transition: all 0.3s ease-in;
+}
+.hero_section-contact img {
+  width: 30px;
+  padding-right: 10px;
 }
 .hero_section-contact button:hover {
   transform: scale(1.01);
