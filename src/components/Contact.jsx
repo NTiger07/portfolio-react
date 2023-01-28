@@ -58,8 +58,10 @@ const Contact = () => {
             placeholder="Write Message"
             autoComplete="off"
           />
-
-          <input type="submit" value="Send" id="submitBtn" />
+          <span id="submitBtn">
+            <input type="submit" value="Send" />
+            <img src={send} alt="sendbtn" />
+          </span>
         </form>
         {isLoading && (
           <div className="loading_container">

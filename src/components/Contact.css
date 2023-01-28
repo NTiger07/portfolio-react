@@ -60,6 +60,10 @@ textarea {
   border-radius: 6px;
   transition: all 0.3s ease-in;
   width: 20vw;
+  display: flex;
+  align-items: center;
+}
+#submitBtn input {
   cursor: pointer;
   resize: none;
 }
