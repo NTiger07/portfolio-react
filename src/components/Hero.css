@@ -107,16 +107,17 @@
   justify-content: center;
 }
 .hero_section-contact button {
-  padding: 8px;
+  padding: 8px 12px;
   background-color: transparent;
   font-size: 22px;
   display: flex;
+  align-items: center;
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
   transition: all 0.3s ease-in;
 }
-.hero_section-contact img {
-  width: 30px;
+.hero_section-contact svg {
+  width: 40px;
   padding-right: 10px;
 }
 .hero_section-contact button:hover {
