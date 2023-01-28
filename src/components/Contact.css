@@ -66,6 +66,7 @@ textarea {
 #submitBtn input {
   cursor: pointer;
   resize: none;
+  background-color: transparent;
 }
 #submitBtn:hover {
   transform: scale(1.01);
