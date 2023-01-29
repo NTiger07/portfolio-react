@@ -30,6 +30,10 @@ class About extends Component {
               Artificial Intelligence, read up on Tesla cars, enjoy playing
               video games, and listen to music.
             </p>
+            <div className="about_section-links">
+              <a href="">Get Resume </a> /{" "}
+              <a href="https://github.com/NTiger07"> View My Repo</a>
+            </div>
           </div>
         </div>
       </div>
