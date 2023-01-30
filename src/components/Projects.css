@@ -41,6 +41,7 @@
 .evenback {
   background: linear-gradient(60deg, #3792e4, #f43b60);
 }
+
 .project_image span {
   text-align: center;
   font-size: 2rem;
@@ -57,6 +58,10 @@
   flex-direction: column;
   width: 70%;
   padding-left: 2vw;
+}
+.evencontent {
+  padding-left: 0vw;
+  padding-right: 2vw;
 }
 .project_content p {
   padding-top: 10px;

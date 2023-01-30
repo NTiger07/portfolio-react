@@ -61,7 +61,7 @@ class Projects extends Component {
               <span>De Armas</span>
               <img src={weather} alt="projectimage" />
             </div>
-            <div className="project_content">
+            <div className="project_content evencontent">
               <span className="project-title">
                 <b>Weather App</b>
               </span>
