@@ -48,9 +48,12 @@
   font-size: 1vw;
   border: solid 2px rgb(55, 148, 227);
   border-radius: 6px;
-  transition: all 0.3s ease-in;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.about_section-links a {
+  padding-left: 20px;
+  padding-right: 20px;
 }
