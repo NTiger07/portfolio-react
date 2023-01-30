@@ -57,8 +57,8 @@ class Projects extends Component {
             </div>
           </div>
           <div className="project_card even">
-            <div className="project_image">
-              <span>VGNUP</span>
+            <div className="project_image evenback">
+              <span>De Armas</span>
               <img src={weather} alt="projectimage" />
             </div>
             <div className="project_content">
