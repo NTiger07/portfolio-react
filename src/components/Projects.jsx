@@ -28,6 +28,7 @@ class Projects extends Component {
                 the user search queries. The app features a clean and intuitive
                 user interface that allows users to easily browse and search for
                 recipes by ingredients, diet, cuisine origin and meal type.
+                Deployed to Netlify.
               </p>
               <div className="project_tools">
                 <span>
@@ -51,6 +52,48 @@ class Projects extends Component {
                 <button id="live">
                   <img src={website} alt="websitesvg" />
                   <a href="https://vgnup.netlify.app">View Website</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="project_card even">
+            <div className="project_image">
+              <span>VGNUP</span>
+              <img src={weather} alt="projectimage" />
+            </div>
+            <div className="project_content">
+              <span className="project-title">
+                <b>Weather App</b>
+              </span>
+              <p>
+                The recipe app is a web-based application built with React. It
+                utilizes the Edemam API to retrieve and display recipes based on
+                the user search queries. The app features a clean and intuitive
+                user interface that allows users to easily browse and search for
+                recipes by ingredients, diet, cuisine origin and meal type.
+              </p>
+              <div className="project_tools">
+                <span>
+                  <b>Built with:</b>
+                </span>
+                <div className="tools_content">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Vanilla JavaScript</span>
+                  <span>OpenWeatherMap API</span>
+                  <span>Netlify</span>
+                </div>
+              </div>
+              <div className="project_links">
+                <button>
+                  <img src={repo} alt="reposvg" />
+                  <a href="https://github.com/NTiger07/Weather-App">
+                    View Repo
+                  </a>
+                </button>
+                <button id="live">
+                  <img src={website} alt="websitesvg" />
+                  <a href="https://vgweather.netlify.app">View Website</a>
                 </button>
               </div>
             </div>

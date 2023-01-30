@@ -3,6 +3,9 @@ transition shit
 
 RESPONSIVE
 CleanUP **
-ADD PROJECTS ABOUT LINK IMAGE AND SHIT
+ADD PROJECTS ABOUT LINK IMAGE AND SHIT 3 remaning
+Weather App shows weather information of cities. 
+It shows the temperature, description, humidity and 
+wind speed of any city.
 
 google docs resume
