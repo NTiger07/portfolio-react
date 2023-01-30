@@ -33,8 +33,15 @@ class About extends Component {
               video games, and listen to music.
             </p>
             <div className="about_section-links">
-              <a href="">Get Resume</a>/
-              <a href="https://github.com/NTiger07">View My Repo</a>
+              <span>
+                <img src={resume} alt="resume" />
+                <a href="">Get Resume</a>
+              </span>
+              /
+              <span>
+                <img src={repo} alt="repo" />
+                <a href="https://github.com/NTiger07">View My Repo</a>
+              </span>
             </div>
           </div>
         </div>
