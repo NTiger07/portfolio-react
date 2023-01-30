@@ -28,7 +28,6 @@
   display: flex;
   flex-direction: row-reverse;
 }
-
 .project_image {
   padding-top: 30px;
   border-radius: 8px;
@@ -41,7 +40,6 @@
 .evenback {
   background: linear-gradient(60deg, #3792e4, #f43b60);
 }
-
 .project_image span {
   text-align: center;
   font-size: 2rem;
