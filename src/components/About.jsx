@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import resume from "../svgs/resume.svg";
+import repo from "../svgs/repo.svg";
 import "./About.css";
 
 class About extends Component {
