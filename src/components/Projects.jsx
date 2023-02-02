@@ -98,6 +98,49 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+          <div className="project_card">
+            <div className="project_image">
+              <span>VGNUP</span>
+              <img src={recipe} alt="projectimage" />
+            </div>
+            <div className="project_content">
+              <span className="project-title">
+                <b>Recipe App</b>
+              </span>
+              <p>
+                The recipe app is a web-based application built with React. It
+                utilizes the Edemam API to retrieve and display recipes based on
+                the user search queries. The app features a clean and intuitive
+                user interface that allows users to easily browse and search for
+                recipes by ingredients, diet, cuisine origin and meal type.
+                Deployed to Netlify.
+              </p>
+              <div className="project_tools">
+                <span>
+                  <b>Built with:</b>
+                </span>
+                <div className="tools_content">
+                  <span>ReactJS</span>
+                  <span>Async API</span>
+                  <span>Hooks</span>
+                  <span>Edemam API</span>
+                  <span>Netlify</span>
+                </div>
+              </div>
+              <div className="project_links">
+                <button>
+                  <img src={repo} alt="reposvg" />
+                  <a href="https://github.com/NTiger07/Recipe-App-Build">
+                    View Repo
+                  </a>
+                </button>
+                <button id="live">
+                  <img src={website} alt="websitesvg" />
+                  <a href="https://vgnup.netlify.app">View Website</a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
