@@ -38,6 +38,8 @@ class Projects extends Component {
                   <span>ReactJS</span>
                   <span>Async API</span>
                   <span>Hooks</span>
+                  <span>CSS3</span>
+                  <span>Responsive Design</span>
                   <span>Edemam API</span>
                   <span>Netlify</span>
                 </div>
@@ -123,6 +125,7 @@ class Projects extends Component {
                   <span>ReactJS</span>
                   <span>Hooks</span>
                   <span>CSS3</span>
+                  <span>Responsive Design</span>
                   <span>Netlify</span>
                 </div>
               </div>
@@ -135,7 +138,7 @@ class Projects extends Component {
                 </button>
                 <button id="live">
                   <img src={website} alt="websitesvg" />
-                  <a href="https://vgnup.netlify.app">View Website</a>
+                  <a href="https://vgroom.netlify.app">View Website</a>
                 </button>
               </div>
             </div>
