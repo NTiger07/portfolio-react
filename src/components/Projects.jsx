@@ -100,12 +100,12 @@ class Projects extends Component {
           </div>
           <div className="project_card">
             <div className="project_image">
-              <span>VGNUP</span>
-              <img src={recipe} alt="projectimage" />
+              <span>ROOM</span>
+              <img src={room} alt="projectimage" />
             </div>
             <div className="project_content">
               <span className="project-title">
-                <b>Recipe App</b>
+                <b>Room</b>
               </span>
               <p>
                 The recipe app is a web-based application built with React. It
