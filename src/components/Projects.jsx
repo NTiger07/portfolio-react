@@ -110,12 +110,11 @@ class Projects extends Component {
                 <b>Room</b>
               </span>
               <p>
-                The recipe app is a web-based application built with React. It
-                utilizes the Edemam API to retrieve and display recipes based on
-                the user search queries. The app features a clean and intuitive
-                user interface that allows users to easily browse and search for
-                recipes by ingredients, diet, cuisine origin and meal type.
-                Deployed to Netlify.
+                The Room app is a single page application React application
+                based on the room design from{" "}
+                <a href="https://frontendmentor.io">frontendmentors.io</a>. The
+                project is meant to showcase my skills in using ReactJS library,
+                CSS3 and a <b>slideshow component</b>. Deployed to Netlify.
               </p>
               <div className="project_tools">
                 <span>
