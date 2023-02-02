@@ -100,7 +100,7 @@ class Projects extends Component {
           </div>
           <div className="project_card">
             <div className="project_image">
-              <span>ROOM</span>
+              <span>Room</span>
               <img src={room} alt="projectimage" />
             </div>
             <div className="project_content">
@@ -121,16 +121,15 @@ class Projects extends Component {
                 </span>
                 <div className="tools_content">
                   <span>ReactJS</span>
-                  <span>Async API</span>
                   <span>Hooks</span>
-                  <span>Edemam API</span>
+                  <span>CSS3</span>
                   <span>Netlify</span>
                 </div>
               </div>
               <div className="project_links">
                 <button>
                   <img src={repo} alt="reposvg" />
-                  <a href="https://github.com/NTiger07/Recipe-App-Build">
+                  <a href="https://github.com/NTiger07/room-react-build">
                     View Repo
                   </a>
                 </button>
