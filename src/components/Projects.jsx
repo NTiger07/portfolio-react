@@ -47,13 +47,23 @@ class Projects extends Component {
               <div className="project_links">
                 <button>
                   <img src={repo} alt="reposvg" />
-                  <a href="https://github.com/NTiger07/Recipe-App-Build">
+                  <a
+                    href="https://github.com/NTiger07/Recipe-App-Build"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     View Repo
                   </a>
                 </button>
                 <button id="live">
                   <img src={website} alt="websitesvg" />
-                  <a href="https://vgnup.netlify.app">View Website</a>
+                  <a
+                    href="https://vgnup.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Website
+                  </a>
                 </button>
               </div>
             </div>
@@ -89,13 +99,23 @@ class Projects extends Component {
               <div className="project_links">
                 <button>
                   <img src={repo} alt="reposvg" />
-                  <a href="https://github.com/NTiger07/Weather-App">
+                  <a
+                    href="https://github.com/NTiger07/Weather-App"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     View Repo
                   </a>
                 </button>
                 <button id="live">
                   <img src={website} alt="websitesvg" />
-                  <a href="https://vgweather.netlify.app">View Website</a>
+                  <a
+                    href="https://vgweather.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Website
+                  </a>
                 </button>
               </div>
             </div>
@@ -112,9 +132,16 @@ class Projects extends Component {
               <p>
                 The Room app is a single page application React application
                 based on the room design from{" "}
-                <a href="https://frontendmentor.io">frontendmentors.io</a>. The
-                project is meant to showcase my skills in using ReactJS library,
-                CSS3 and a <b>slideshow component</b>. Deployed to Netlify.
+                <a
+                  href="https://frontendmentor.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  frontendmentors.io
+                </a>
+                . The project is meant to showcase my skills in using ReactJS
+                library, CSS3 and <b>a slideshow component</b>. Deployed to
+                Netlify.
               </p>
               <div className="project_tools">
                 <span>
@@ -131,13 +158,23 @@ class Projects extends Component {
               <div className="project_links">
                 <button>
                   <img src={repo} alt="reposvg" />
-                  <a href="https://github.com/NTiger07/room-react-build">
+                  <a
+                    href="https://github.com/NTiger07/room-react-build"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     View Repo
                   </a>
                 </button>
                 <button id="live">
                   <img src={website} alt="websitesvg" />
-                  <a href="https://vgroom.netlify.app">View Website</a>
+                  <a
+                    href="https://vgroom.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Website
+                  </a>
                 </button>
               </div>
             </div>
