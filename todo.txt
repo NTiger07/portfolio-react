@@ -7,5 +7,3 @@ google docs resume
 
 Virtual internships
 EASTER EGG
-
-frontendmentor links

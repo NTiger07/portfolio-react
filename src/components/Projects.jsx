@@ -133,7 +133,7 @@ class Projects extends Component {
                 The Room app is a single page application React application
                 based on the room design from{" "}
                 <a
-                  href="https://frontendmentor.io"
+                  href="https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq"
                   target="_blank"
                   rel="noreferrer"
                   className="fementor"
@@ -190,9 +190,9 @@ class Projects extends Component {
                 <b>Easy Bank</b>
               </span>
               <p>
-                EasyBank landing page is a UI design made by{" "}
+                EasyBank landing page is an intermediate UI design made by{" "}
                 <a
-                  href="https://frontendmentor.io"
+                  href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN"
                   className="fementor"
                   target="_blank"
                   rel="noreferrer"
