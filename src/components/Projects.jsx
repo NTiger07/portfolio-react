@@ -181,12 +181,12 @@ class Projects extends Component {
           </div>
           <div className="project_card even">
             <div className="project_image evenback">
-              <span>EasyBank</span>
+              <span>Easy Bank</span>
               <img src={easybank} alt="projectimage" />
             </div>
             <div className="project_content evencontent">
               <span className="project-title">
-                <b>Weather App</b>
+                <b>Easy Bank</b>
               </span>
               <p>
                 This Weather App is an easy and convenient way to quickly check
@@ -203,7 +203,6 @@ class Projects extends Component {
                   <span>HTML5</span>
                   <span>CSS3</span>
                   <span>Vanilla JavaScript</span>
-                  <span>OpenWeatherMap API</span>
                   <span>Netlify</span>
                 </div>
               </div>
@@ -221,7 +220,7 @@ class Projects extends Component {
                 <button id="live">
                   <img src={website} alt="websitesvg" />
                   <a
-                    href="https://vgweather.netlify.app"
+                    href="https://easynt.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
