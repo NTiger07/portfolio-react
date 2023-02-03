@@ -136,6 +136,7 @@ class Projects extends Component {
                   href="https://frontendmentor.io"
                   target="_blank"
                   rel="noreferrer"
+                  className="fementor"
                 >
                   frontendmentors.io
                 </a>
@@ -189,11 +190,18 @@ class Projects extends Component {
                 <b>Easy Bank</b>
               </span>
               <p>
-                This Weather App is an easy and convenient way to quickly check
-                the current temperature, description, humidity and wind speed of
-                any city or country. Using the OpenWeatherMap API users can
-                easily search for current weather conditons of any city. Made
-                with Vanilla JavaScript and deployed to Netlify.
+                EasyBank landing page is a UI design made by{" "}
+                <a
+                  href="frontendmentor.io"
+                  className="fementor"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  frontendmentor.io
+                </a>
+                . It's a landing page made for a hypothetical online bank that
+                helps invest and budget money. Made with Vanilla JavaScript and
+                deployed to Netlify.
               </p>
               <div className="project_tools">
                 <span>
@@ -202,6 +210,7 @@ class Projects extends Component {
                 <div className="tools_content">
                   <span>HTML5</span>
                   <span>CSS3</span>
+                  <span>Responsive Design</span>
                   <span>Vanilla JavaScript</span>
                   <span>Netlify</span>
                 </div>
