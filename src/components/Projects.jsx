@@ -192,7 +192,7 @@ class Projects extends Component {
               <p>
                 EasyBank landing page is a UI design made by{" "}
                 <a
-                  href="frontendmentor.io"
+                  href="https://frontendmentor.io"
                   className="fementor"
                   target="_blank"
                   rel="noreferrer"
