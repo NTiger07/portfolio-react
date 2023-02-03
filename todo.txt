@@ -3,7 +3,6 @@ transition shit
 
 RESPONSIVE
 CleanUP **
-ADD PROJECTS ABOUT LINK IMAGE AND SHIT 1 remaning
 
 google docs resume
 
@@ -11,4 +10,3 @@ Virtual internships
 EASTER EGG
 
 frontendmentor links
-fe styling

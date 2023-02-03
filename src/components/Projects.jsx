@@ -219,7 +219,7 @@ class Projects extends Component {
                 <button>
                   <img src={repo} alt="reposvg" />
                   <a
-                    href="https://github.com/NTiger07/Weather-App"
+                    href="https://github.com/NTiger07/easybank-landingpage"
                     target="_blank"
                     rel="noreferrer"
                   >
