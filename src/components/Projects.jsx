@@ -179,6 +179,58 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+          <div className="project_card even">
+            <div className="project_image evenback">
+              <span>EasyBank</span>
+              <img src={easybank} alt="projectimage" />
+            </div>
+            <div className="project_content evencontent">
+              <span className="project-title">
+                <b>Weather App</b>
+              </span>
+              <p>
+                This Weather App is an easy and convenient way to quickly check
+                the current temperature, description, humidity and wind speed of
+                any city or country. Using the OpenWeatherMap API users can
+                easily search for current weather conditons of any city. Made
+                with Vanilla JavaScript and deployed to Netlify.
+              </p>
+              <div className="project_tools">
+                <span>
+                  <b>Built with:</b>
+                </span>
+                <div className="tools_content">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Vanilla JavaScript</span>
+                  <span>OpenWeatherMap API</span>
+                  <span>Netlify</span>
+                </div>
+              </div>
+              <div className="project_links">
+                <button>
+                  <img src={repo} alt="reposvg" />
+                  <a
+                    href="https://github.com/NTiger07/Weather-App"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Repo
+                  </a>
+                </button>
+                <button id="live">
+                  <img src={website} alt="websitesvg" />
+                  <a
+                    href="https://vgweather.netlify.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    View Website
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
