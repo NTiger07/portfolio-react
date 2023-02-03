@@ -35,7 +35,9 @@ class About extends Component {
             <div className="about_section-links">
               <span>
                 <img src={resume} alt="resume" />
-                <a href="">Get Resume</a>
+                <a href="https://drive.google.com/file/d/1e9AXHgAbbSlqV0tcTWyZExfVYycR3-1Z/view?usp=sharing">
+                  Get Resume
+                </a>
               </span>
               /
               <span>
