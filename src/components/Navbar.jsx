@@ -1,6 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import hamburger from "../svgs/hamburger.svg";
+import close from "../svgs/close.svg";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -30,7 +31,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="ham_image" onClick={toggle}>
-        <img src={hamburger} alt="hamburger" />
+        <img src={navOpen ? close : hamburger} alt="hamburger" />
       </div>
       {navOpen && (
         <div className="navlinks_mobile">

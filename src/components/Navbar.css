@@ -49,25 +49,37 @@
 }
 @media screen and (max-width: 425px) {
   .logo_container a {
-    font-size: 6vw;
+    font-size: 7vw;
   }
   .navlinks_mobile {
     display: flex;
     position: absolute;
     right: 0;
     top: 20vh;
+    height: 80vh;
+    width: 100vw;
+    background: #000000d0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .nav-list {
     display: flex;
     flex-direction: column;
+    line-height: 50px;
   }
   .ham_image {
     display: block;
+    display: flex;
+    align-items: center;
   }
   .ham_image img {
-    width: 40px;
+    width: 35px;
   }
   .navlinks_container {
     display: none;
   }
+}
+@media screen and (max-width: 375px) {
 }
