@@ -25,6 +25,22 @@ export default class Navbar extends Component {
             </li>
           </ul>
         </div>
+        <div className="navlinks_mobile">
+          <ul className="nav-list">
+            <li className="nav-links">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="nav-links">
+              <Link to="/about">About Me</Link>
+            </li>
+            <li className="nav-links">
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li className="nav-links">
+              <Link to="/contact">Contact</Link>
+            </li>
+          </ul>
+        </div>
       </div>
     );
   }

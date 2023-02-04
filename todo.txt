@@ -1,6 +1,6 @@
 transition shit
 
-RESPONSIVE
+RESPONSIVE: 1024 768 425 375 (chrome extension)
 CleanUP **
 
 Virtual internships

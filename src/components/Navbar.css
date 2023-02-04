@@ -16,6 +16,9 @@
   margin-left: 2px;
   margin-right: 4px;
 }
+.navlinks_mobile {
+  display: none;
+}
 .nav-list {
   display: flex;
 }
@@ -30,4 +33,28 @@
   background: linear-gradient(60deg, #3792e4, #31cabd);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .logo_container a {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo_container a {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* .logo_container a {
+    font-size: 5vw;
+  } */
+  .navlinks_mobile {
+    display: flex;
+  }
+  .navlinks_container {
+    display: none;
+  }
 }
