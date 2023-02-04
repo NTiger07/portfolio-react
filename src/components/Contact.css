@@ -53,7 +53,6 @@ textarea {
 }
 #submitBtn {
   margin-top: 40px;
-  padding: 8px;
   background-color: transparent;
   font-size: 1vw;
   border: solid 2px rgb(55, 148, 227);
@@ -63,6 +62,7 @@ textarea {
   display: flex;
   align-items: center;
   padding: 8px 90px;
+  cursor: pointer;
 }
 #submitBtn input {
   cursor: pointer;

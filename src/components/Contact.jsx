@@ -58,7 +58,7 @@ const Contact = () => {
             placeholder="Write Message"
             autoComplete="off"
           />
-          <span id="submitBtn">
+          <span id="submitBtn" onClick={sendEmail}>
             <input type="submit" value="Send" />
             <img src={send} alt="sendbtn" />
           </span>
