@@ -48,16 +48,24 @@
   }
 }
 @media screen and (max-width: 425px) {
-  /* .logo_container a {
-    font-size: 5vw;
-  } */
+  .logo_container a {
+    font-size: 6vw;
+  }
   .navlinks_mobile {
     display: flex;
-    flex-direction: column;
     position: absolute;
+    right: 0;
+    top: 20vh;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
   }
   .ham_image {
     display: block;
+  }
+  .ham_image img {
+    width: 40px;
   }
   .navlinks_container {
     display: none;
