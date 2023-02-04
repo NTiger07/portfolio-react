@@ -125,3 +125,8 @@
   transition: all 0.3s ease-in;
   border: solid 2px #fff;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}
