@@ -82,4 +82,7 @@
   }
 }
 @media screen and (max-width: 375px) {
+  .logo_container a {
+    font-size: 8vw;
+  }
 }
