@@ -16,7 +16,7 @@
   margin-left: 2px;
   margin-right: 4px;
 }
-.navlinks_mobile {
+.ham_image {
   display: none;
 }
 .nav-list {
@@ -53,6 +53,11 @@
   } */
   .navlinks_mobile {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  .ham_image {
+    display: block;
   }
   .navlinks_container {
     display: none;
