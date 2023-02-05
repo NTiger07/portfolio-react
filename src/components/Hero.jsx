@@ -11,7 +11,7 @@ export default class Hero extends Component {
         <div className="hero_section-content">
           <h1>HI, MY NAME IS</h1>
           <span>Favour Olaleru.</span>
-          <span>I Am A Front-End Developer.</span>
+          <span id="fedev">I Am A Front-End Developer.</span>
           <p>
             I am a skilled frontend developer with expertise in HTML, CSS,
             JavaScript, and React. I develop user-friendly web interfaces that
