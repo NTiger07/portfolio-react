@@ -69,3 +69,8 @@
 .about_section-links img {
   width: 25px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}
