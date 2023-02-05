@@ -7,7 +7,7 @@ import "./Hero.css";
 export default class Hero extends Component {
   render() {
     return (
-      <div className="hero_section transition">
+      <div className="hero_section">
         <div className="hero_section-content">
           <h1>HI, MY NAME IS</h1>
           <span>Favour Olaleru.</span>

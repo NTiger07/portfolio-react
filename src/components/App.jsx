@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import EasterEgg from "./EasterEgg";
 
 import "../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf";
 import "../fonts/Sacramento/Sacramento-Regular.ttf";
@@ -29,6 +30,7 @@ const App = () => {
                 <Contact />
                 <div className="footerroof"></div>
                 <Footer />
+                <EasterEgg />
               </>
             }
           />

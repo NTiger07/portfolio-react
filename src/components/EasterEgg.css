@@ -1,0 +1,14 @@
+.easteregg_section {
+  padding-left: 35vw;
+  padding-right: 35vw;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  font-size: 2rem;
+}
+.easteregg_section button {
+  font-size: 2rem;
+}
