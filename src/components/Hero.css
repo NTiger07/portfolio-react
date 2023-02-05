@@ -129,4 +129,8 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
+  .hero_section-content p {
+    font-size: 16px;
+    line-height: 2rem;
+  }
 }
