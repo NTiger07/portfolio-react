@@ -134,3 +134,16 @@
     line-height: 2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero_section-content span {
+    font-size: 6vw;
+  }
+  .hero_section-content p {
+    font-size: 16px;
+    line-height: 1.6rem;
+  }
+  .hero_section-links {
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+}
