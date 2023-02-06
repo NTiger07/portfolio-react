@@ -110,3 +110,20 @@
     padding-right: 10px;
   }
 }
+@media screen and (max-width: 425px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_section-image {
+    width: 90%;
+  }
+  .about_section-content {
+    width: 90%;
+    display: flex;
+    margin: 0;
+  }
+  .about_section-content p {
+    font-size: 2vw;
+  }
+}
