@@ -76,3 +76,8 @@
     width: 35px;
   }
 }
+@media screen and (max-width: 375px) {
+  .skills_content span {
+    font-size: 15px;
+  }
+}
