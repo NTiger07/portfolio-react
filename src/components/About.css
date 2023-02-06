@@ -74,6 +74,8 @@
 
 @media screen and (max-width: 1024px) {
   .about_section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     height: 90vh;
   }
   .about_section-content p {
@@ -88,5 +90,23 @@
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about_section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 80vh;
+  }
+  .about_section h1 {
+    font-size: 2rem;
+  }
+  .about_section-content p {
+    font-size: 1.3vw;
+  }
+  .about_section-links span {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
