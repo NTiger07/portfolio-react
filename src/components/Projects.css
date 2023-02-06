@@ -123,3 +123,8 @@
 .fementor {
   color: #31cabd;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}
