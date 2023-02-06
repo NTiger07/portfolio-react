@@ -82,10 +82,6 @@ class Skills extends Component {
             <img src={vscode} alt="vscode" />
             VSCode
           </span>
-          {/* <span>
-            <img src={netlify} alt="netlify" />
-            Netlify
-          </span> */}
         </div>
       </div>
     );
