@@ -34,3 +34,22 @@
   width: 40px;
   padding-right: 10px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .skills_section {
+    height: 60vh;
+  }
+  .skills_content {
+    width: 80%;
+    align-items: center;
+  }
+  .skills_content span {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    height: max-content;
+    width: max-content;
+  }
+}
