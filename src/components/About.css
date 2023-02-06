@@ -143,4 +143,9 @@
     font-size: 10px;
     padding-bottom: 0;
   }
+  @media screen and (max-width: 375px) {
+    .about_section-content p {
+      font-size: 2.7vw;
+    }
+  }
 }
