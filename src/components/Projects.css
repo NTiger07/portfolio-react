@@ -128,11 +128,22 @@
 
 @media screen and (max-width: 1024px) {
   .project_card {
-    height: 55vh;
+    height: 50vh;
+  }
+  .project_content {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    justify-content: space-between;
   }
   .tools_content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+  }
+  .tools_content span {
+    margin: 5px 15px;
+  }
+  .project_links {
+    width: 50%;
   }
 }
