@@ -127,4 +127,12 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
+  .project_card {
+    height: 55vh;
+  }
+  .tools_content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
