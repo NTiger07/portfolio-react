@@ -58,3 +58,21 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 425px) {
+  .skills_section {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: 60vh;
+  }
+  .skills_section h2 {
+    padding-bottom: 10px;
+  }
+  .skills_content span {
+    margin: 10px;
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+  .skills_content img {
+    width: 35px;
+  }
+}
