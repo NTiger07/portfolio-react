@@ -129,11 +129,21 @@
 @media screen and (max-width: 1024px) {
   .project_card {
     height: 50vh;
+    align-items: center;
+  }
+  .project_image {
+    height: 75%;
   }
   .project_content {
     padding-top: 3vh;
     padding-bottom: 3vh;
     justify-content: space-between;
+  }
+  .project-title {
+    padding-bottom: 10px;
+  }
+  .project_content p {
+    font-size: 1.5vw;
   }
   .tools_content {
     display: flex;
