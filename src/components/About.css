@@ -101,6 +101,9 @@
   .about_section h1 {
     font-size: 2rem;
   }
+  .about_section-image {
+    height: 60%;
+  }
   .about_section-content p {
     font-size: 1.3vw;
   }
