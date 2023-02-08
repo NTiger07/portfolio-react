@@ -57,3 +57,12 @@
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .footer_section span {
+    font-size: 1.5rem;
+  }
+  .links_container {
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+}
