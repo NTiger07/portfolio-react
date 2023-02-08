@@ -158,4 +158,29 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .projects_section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .project_image {
+    height: 70%;
+  }
+  .tools_content span {
+    font-size: 14px;
+  }
+  .project_content p {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    font-size: 1.7vw;
+  }
+  .tools_content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .project_links {
+    width: 60%;
+  }
+  .project_links button {
+    font-size: 1.5vw;
+  }
 }
