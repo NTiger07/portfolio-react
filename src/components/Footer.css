@@ -66,3 +66,21 @@
     padding-right: 30vw;
   }
 }
+@media screen and (max-width: 425px) {
+  .footer_section span {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .footer_section button {
+    margin-top: 20px;
+  }
+  .links_container {
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+  .footer_links img {
+    width: 30px;
+  }
+}
