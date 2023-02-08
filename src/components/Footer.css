@@ -53,4 +53,7 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) {
+  .footer_section span {
+    font-size: 2rem;
+  }
 }
