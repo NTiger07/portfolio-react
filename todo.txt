@@ -1,7 +1,5 @@
 transition shit
 
-RESPONSIVE: 1024 768 425 375 (chrome extension)
-@media screen and (max-width: 425px)
 CleanUP **
 
 Virtual internships
