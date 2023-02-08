@@ -49,3 +49,8 @@
 .footer_links img {
   width: 35px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}
