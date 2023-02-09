@@ -42,6 +42,10 @@ textarea {
   resize: vertical;
   font-family: "Lexend Deca", sans-serif;
 }
+input:hover,
+textarea:hover {
+  border: solid 2px #31cabd;
+}
 input:focus,
 textarea:focus {
   border: solid 2px rgb(55, 148, 227);
