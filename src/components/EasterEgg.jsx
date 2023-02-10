@@ -2,14 +2,14 @@ import React from "react";
 import "./EasterEgg.css";
 
 export default function EasterEgg() {
-  const [counter, setCounter] = React.useState(0);
-  const increment = () => {
-    setCounter(counter + 1);
+  const [isVanished, setIsVanished] = React.useState(false);
+  const handleSnap = () => {
+    setIsVanished(!isVanished);
   };
   return (
     <div className="easteregg_section">
-      <button onClick={increment}>Click for Easter Egg</button>
-      <span>{counter}</span>
+      <button onClick={handleSnap}>Click for Easter Egg</button>
+      <span className={`snap ${isVanished ? "vanished" : ""}`}>I love you</span>
     </div>
   );
 }

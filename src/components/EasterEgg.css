@@ -11,3 +11,11 @@
 .easteregg_section button {
   font-size: 2rem;
 }
+
+.snap {
+  transition: all.5s ease-in-out;
+}
+.vanished {
+  opacity: 0;
+  transform: scale(0);
+}
