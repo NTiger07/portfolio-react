@@ -11,9 +11,9 @@
 .easteregg_section button {
   font-size: 2rem;
 }
-
 .snap {
   transition: all 0.5s ease-in-out;
+  background-color: rgb(190, 82, 82);
 }
 .vanished {
   opacity: 0;
