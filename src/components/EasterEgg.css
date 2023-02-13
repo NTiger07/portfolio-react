@@ -11,14 +11,14 @@
 .easteregg_section button {
   font-size: 2rem;
 }
-.snap {
+/* .snap {
   transition: all 0.5s ease-in-out;
   background-color: rgb(190, 82, 82);
 }
 .vanished {
   opacity: 0;
   transform: scale(0);
-}
+}*/
 @-webkit-keyframes fade-out {
   0% {
     opacity: 1;
@@ -36,6 +36,7 @@
   }
 }
 .fade-out {
-  -webkit-animation: fade-out 2s ease-out 0.5s infinite both;
-  animation: fade-out 2s ease-out 0.5s infinite both;
+  -webkit-animation: fade-out 2s ease-out 0.5s both;
+  animation: fade-out 2s ease-out 0.5s both;
+  transition: all 0.5s ease-in-out;
 }

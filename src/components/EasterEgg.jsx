@@ -9,9 +9,7 @@ export default function EasterEgg() {
   return (
     <div className="easteregg_section">
       <button onClick={handleSnap}>Click for Easter Egg</button>
-      <span className={`fade-out ${isVanished ? "vanished" : ""}`}>
-        I love you
-      </span>
+      <span className={`${isVanished ? "fade-out" : " "}`}>I love you</span>
     </div>
   );
 }
