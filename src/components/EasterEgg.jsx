@@ -1,15 +1,19 @@
 import React from "react";
 import "./EasterEgg.css";
 
-export default function EasterEgg() {
-  const [isVanished, setIsVanished] = React.useState(false);
+export default function EasterEgg(props) {
   const handleSnap = () => {
-    setIsVanished(!isVanished);
+    props.setIsVanished(!props.isVanished);
+    setTimeout(() => {
+      props.setIsVanished(false);
+    }, 24000);
   };
   return (
     <div className="easteregg_section">
       <button onClick={handleSnap}>Click for Easter Egg</button>
-      <span className={`${isVanished ? "fade-out" : " "}`}>I love you</span>
+      <span className={`${props.isVanished ? "fade-out" : " "}`}>
+        I love you
+      </span>
     </div>
   );
 }

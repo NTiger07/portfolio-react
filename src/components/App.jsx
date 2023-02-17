@@ -14,6 +14,8 @@ import "../fonts/Sacramento/Sacramento-Regular.ttf";
 import "../App.css";
 
 const App = () => {
+  const [isVanished, setIsVanished] = React.useState(false);
+
   return (
     <div className="main_container">
       <BrowserRouter>
@@ -23,14 +25,17 @@ const App = () => {
             element={
               <>
                 <Navbar />
-                <Hero />
-                <About />
+                <Hero isVanished={isVanished} />
+                <About isVanished={isVanished} />
                 <Skills />
-                <Projects />
+                <Projects isVanished={isVanished} />
                 <Contact />
                 <div className="footerroof"></div>
                 <Footer />
-                <EasterEgg />
+                <EasterEgg
+                  isVanished={isVanished}
+                  setIsVanished={setIsVanished}
+                />
               </>
             }
           />
