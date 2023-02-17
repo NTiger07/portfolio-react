@@ -1,13 +1,7 @@
 transition shit
 
-CleanUP **
-
-Virtual internships
-
-
 ABOUT IMAGE
-hero section animated arrow down
-test all
 
-ALL LINKS TO GREEN ???
-check for comments
+test all
+easter egg scroll logic
+
