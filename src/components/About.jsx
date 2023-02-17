@@ -5,7 +5,7 @@ import "./About.css";
 
 const About = (props) => {
   return (
-    <div className="about_section">
+    <div className="about_section" id="scrollabout">
       <h1>ABOUT ME</h1>
       <div className="row">
         <div className="about_section-image">

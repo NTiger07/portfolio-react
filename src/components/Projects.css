@@ -1,3 +1,7 @@
+#scrollproj {
+  padding-top: 10px;
+  overflow: hidden;
+}
 .projects_section {
   background-color: #1b2430;
   display: flex;
@@ -65,10 +69,12 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.2vw;
+  overflow: hidden;
 }
 .project-title {
   font-size: 2rem;
   padding-bottom: 20px;
+  overflow: hidden;
 }
 .project_tools span {
   padding-top: 20px;
@@ -102,6 +108,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
 }
 .project_links img {
   width: 30px;

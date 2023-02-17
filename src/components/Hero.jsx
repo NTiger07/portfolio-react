@@ -6,7 +6,7 @@ import "./Hero.css";
 
 const Hero = (props) => {
   return (
-    <div className="hero_section">
+    <div className="hero_section" id="scrollhero">
       <div className="hero_section-content">
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>

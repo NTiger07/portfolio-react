@@ -3,6 +3,12 @@ import "./EasterEgg.css";
 
 export default function EasterEgg(props) {
   const handleSnap = () => {
+    const elementhero = document.getElementById("scrollhero");
+    const elementabout = document.getElementById("scrollabout");
+    const elementproj = document.getElementById("scrollproj");
+    elementhero.scrollIntoView({ behavior: "smooth" });
+    elementabout.scrollIntoView({ behavior: "smooth" });
+    elementproj.scrollIntoView({ behavior: "smooth" });
     props.setIsVanished(!props.isVanished);
     setTimeout(() => {
       props.setIsVanished(false);

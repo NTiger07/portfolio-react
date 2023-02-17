@@ -17,7 +17,7 @@ const App = () => {
   const [isVanished, setIsVanished] = React.useState(false);
 
   return (
-    <div className="main_container">
+    <div className="main_container" id="scrollhero">
       <BrowserRouter>
         <Routes>
           <Route
