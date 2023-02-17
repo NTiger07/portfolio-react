@@ -67,7 +67,9 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div className="project_card even">
+        <div
+          className={`project_card even ${props.isVanished ? "fade-out" : " "}`}
+        >
           <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />

@@ -31,7 +31,11 @@ const About = (props) => {
             Artificial Intelligence, read up on Tesla cars, enjoy playing video
             games, and listen to music.
           </p>
-          <div className="about_section-links">
+          <div
+            className={`about_section-links ${
+              props.isVanished ? "fade-out" : " "
+            }`}
+          >
             <span>
               <img src={resume} alt="resume" />
               <a href="https://drive.google.com/file/d/1e9AXHgAbbSlqV0tcTWyZExfVYycR3-1Z/view?usp=sharing">
