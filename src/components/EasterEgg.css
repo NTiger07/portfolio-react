@@ -1,6 +1,6 @@
 .easteregg_section {
-  padding-left: 35vw;
-  padding-right: 35vw;
+  padding-left: 32vw;
+  padding-right: 32vw;
   padding-top: 7vh;
   padding-bottom: 7vh;
   display: flex;
@@ -11,6 +11,7 @@
 .easteregg_section button {
   font-size: 2rem;
   padding: 5px;
+  margin-right: 2px;
 }
 @-webkit-keyframes fade-out {
   0% {
@@ -32,4 +33,49 @@
   -webkit-animation: fade-out 8.5s ease-out 0.5s both;
   animation: fade-out 8.5s ease-out 0.5s both;
   transition: all 8.5s ease-in-out;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .easteregg_section {
+    padding-left: 28vw;
+    padding-right: 28vw;
+    font-size: 1.8rem;
+  }
+  .easteregg_section button {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .easteregg_section {
+    padding-left: 24vw;
+    padding-right: 24vw;
+    font-size: 1.6rem;
+  }
+  .easteregg_section button {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .easteregg_section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.4rem;
+  }
+  .easteregg_section button {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .easteregg_section {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-size: 1.6rem;
+    flex-direction: column-reverse;
+  }
+  .easteregg_section button {
+    font-size: 1.6rem;
+    margin-top: 15px;
+  }
 }

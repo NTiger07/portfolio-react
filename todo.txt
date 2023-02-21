@@ -3,8 +3,6 @@ transition shit
 ABOUT IMAGE
 
 test all
-easter egg scroll logic
 responsive
-investigate onScroll
 
 postman skill
