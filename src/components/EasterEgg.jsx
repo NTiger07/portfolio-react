@@ -10,9 +10,13 @@ export default function EasterEgg(props) {
 
     const linesOfCode = [
       "elementhero.scrollIntoView({ behavior: 'smooth' })",
+      "elementhero.className = 'fade-out'",
       "elementproj.scrollIntoView({ behavior: 'smooth' })",
+      "elementproj.className = 'fade-out'",
       "elementabout.scrollIntoView({ behavior: 'smooth' })",
+      "elementabout.className = 'fade-out'",
       "elementeaster.scrollIntoView({ behavior: 'smooth' })",
+      "elementeaster.className = 'fade-out'",
     ];
 
     function executeCodeWithIntervals() {
