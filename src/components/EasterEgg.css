@@ -12,6 +12,9 @@
   font-size: 2rem;
   padding: 5px;
   margin-right: 2px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
 }
 @-webkit-keyframes fade-out {
   0% {
@@ -30,9 +33,9 @@
   }
 }
 .fade-out {
-  -webkit-animation: fade-out 8.5s ease-out 0.5s both;
-  animation: fade-out 8.5s ease-out 0.5s both;
-  transition: all 8.5s ease-in-out;
+  -webkit-animation: fade-out 2s ease-out 0.5s both;
+  animation: fade-out 2s ease-out 0.5s both;
+  transition: all 0.5s ease-in-out;
 }
 
 /* MEDIA QUERIES */

@@ -67,12 +67,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div
-          id="scrollproj"
-          className={`ana project_card even ${
-            props.isVanished ? "fade-out" : " "
-          }`}
-        >
+        <div id="scrollproj" className="ana project_card even">
           <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />

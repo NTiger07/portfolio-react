@@ -11,7 +11,7 @@ const Hero = (props) => {
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>
         <span id="fedev">I Am A Front-End Developer.</span>
-        <p className={`fedev ${props.isVanished ? "fade-out" : " "}`}>
+        <p className="fedev">
           I am a skilled frontend developer with expertise in HTML, CSS,
           JavaScript, and React. I develop user-friendly web interfaces that are
           visually appealing and easy to navigate, with a focus on creating
