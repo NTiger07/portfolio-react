@@ -6,7 +6,7 @@ import ts from "../svgs/TypeScript.svg";
 import react from "../svgs/React-Dark.svg";
 import axios from "../svgs/axios.svg";
 import api from "../svgs/api.svg";
-import postman from "../svgs/postman.svg";
+// import postman from "../svgs/postman.svg";
 import node from "../svgs/NodeJS-Dark.svg";
 import express from "../svgs/expressjs.svg";
 import git from "../svgs/Git.svg";
@@ -55,10 +55,10 @@ class Skills extends Component {
             <img src={api} alt="api" />
             APIs
           </span>
-          <span>
+          {/* <span>
             <img src={postman} alt="api" />
             Postman
-          </span>
+          </span> */}
           <span>
             <img src={axios} alt="axios" />
             Axios

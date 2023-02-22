@@ -69,7 +69,9 @@ const Projects = (props) => {
         </div>
         <div
           id="scrollproj"
-          className={`project_card even ${props.isVanished ? "fade-out" : " "}`}
+          className={`ana project_card even ${
+            props.isVanished ? "fade-out" : " "
+          }`}
         >
           <div className="project_image evenback">
             <span>De Armas</span>

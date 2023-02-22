@@ -3,20 +3,25 @@ import "./EasterEgg.css";
 
 export default function EasterEgg(props) {
   const handleSnap = () => {
-    const elementhero = document.getElementById("scrollhero");
-    const elementabout = document.getElementById("scrollabout");
-    const elementproj = document.getElementById("scrollproj");
-    const elementeaster = document.getElementById("scrolleast");
+    const scrollhero = document.getElementById("scrollhero");
+    const scrollabout = document.getElementById("scrollabout");
+    const scrollproj = document.getElementById("scrollproj");
+    const scrolleaster = document.getElementById("scrolleast");
+
+    const fadehero = document.getElementsByClassName("fedev")[0];
+    const fadeabout = document.getElementsByClassName("about_section-links")[0];
+    const fadeproj = document.getElementsByClassName("ana")[0];
+    const fadeeaster = document.getElementsByClassName("amo")[0];
 
     const linesOfCode = [
-      "elementhero.scrollIntoView({ behavior: 'smooth' })",
-      "elementhero.className = 'fade-out'",
-      "elementproj.scrollIntoView({ behavior: 'smooth' })",
-      "elementproj.className = 'fade-out'",
-      "elementabout.scrollIntoView({ behavior: 'smooth' })",
-      "elementabout.className = 'fade-out'",
-      "elementeaster.scrollIntoView({ behavior: 'smooth' })",
-      "elementeaster.className = 'fade-out'",
+      "scrollhero.scrollIntoView({ behavior: 'smooth' })",
+      "fadehero.className = 'fedev fade-out '",
+      "scrollproj.scrollIntoView({ behavior: 'smooth' })",
+      "fadeproj.className = 'ana project_card even fade-out'",
+      "scrollabout.scrollIntoView({ behavior: 'smooth' })",
+      "fadeabout.className = 'about_section-links fade-out '",
+      "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
+      "fadeeaster.className = 'amo fade-out '",
     ];
 
     function executeCodeWithIntervals() {
@@ -30,10 +35,10 @@ export default function EasterEgg(props) {
       }, 2000);
     }
 
-    props.setIsVanished(!props.isVanished);
-    setTimeout(() => {
-      props.setIsVanished(false);
-    }, 12500);
+    // props.setIsVanished(!props.isVanished);
+    // setTimeout(() => {
+    //   props.setIsVanished(false);
+    // }, 12500);
 
     executeCodeWithIntervals();
   };
@@ -41,7 +46,7 @@ export default function EasterEgg(props) {
   return (
     <div className="easteregg_section" id="scrolleast">
       <button onClick={handleSnap}>Click for Easter Egg</button>
-      <span className={`${props.isVanished ? "fade-out" : " "}`}>
+      <span className={`amo ${props.isVanished ? "fade-out" : " "}`}>
         I love you
       </span>
     </div>
