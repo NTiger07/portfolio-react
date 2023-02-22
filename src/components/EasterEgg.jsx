@@ -17,10 +17,15 @@ export default function EasterEgg() {
       "fadeeaster.className = 'amo fade-out'",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
       "fadehero.className = 'fedev fade-out '",
+      "console.log('done')",
       "scrollproj.scrollIntoView({ behavior: 'smooth' })",
       "fadeproj.className = 'even ana project_card fade-out'",
+      "console.log('done')",
+
       "scrollabout.scrollIntoView({ behavior: 'smooth' })",
       "fadeabout.className = 'about_section-links fade-out '",
+      "console.log('done')",
+
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
       "fadeeaster.className = 'amo'",
       "fadeproj.className = 'even ana project_card'",
@@ -36,7 +41,7 @@ export default function EasterEgg() {
         if (i >= linesOfCode.length) {
           clearInterval(intervalID);
         }
-      }, 2800);
+      }, 2000);
     }
 
     executeCodeWithIntervals();

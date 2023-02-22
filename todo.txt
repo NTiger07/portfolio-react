@@ -4,5 +4,3 @@ ABOUT IMAGE
 
 test all
 responsive
-
-postman skill
