@@ -35,8 +35,6 @@ const Projects = (props) => {
               </span>
               <div className="tools_content">
                 <span>ReactJS</span>
-                <span>Async API</span>
-                <span>Hooks</span>
                 <span>CSS3</span>
                 <span>Responsive Design</span>
                 <span>Edemam API</span>
