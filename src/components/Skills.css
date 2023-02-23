@@ -28,10 +28,12 @@
   background-color: #253345;
   width: 8vw;
   height: 2vw;
+  height: max-content;
   border-radius: 6px;
 }
 .skills_content img {
   width: 40px;
+  height: 40px;
   padding-right: 10px;
 }
 

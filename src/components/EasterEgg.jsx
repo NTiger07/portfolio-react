@@ -21,11 +21,9 @@ export default function EasterEgg() {
       "scrollproj.scrollIntoView({ behavior: 'smooth' })",
       "fadeproj.className = 'even ana project_card fade-out'",
       "console.log('done')",
-
       "scrollabout.scrollIntoView({ behavior: 'smooth' })",
       "fadeabout.className = 'about_section-links fade-out '",
       "console.log('done')",
-
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
       "fadeeaster.className = 'amo'",
       "fadeproj.className = 'even ana project_card'",
