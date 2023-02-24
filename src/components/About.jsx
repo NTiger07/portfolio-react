@@ -3,15 +3,15 @@ import resume from "../svgs/resume.svg";
 import repo from "../svgs/repo.svg";
 import "./About.css";
 
-const About = (props) => {
+const About = () => {
   return (
-    <div className="about_section" id="scrollabout">
+    <div className="about_section zoomIn" id="scrollabout">
       <h1>ABOUT ME</h1>
       <div className="row">
-        <div className="about_section-image">
-          <img src="" alt="svgillustration" />
+        <div className="about_section-image zoomIn">
+          <img src="" alt="favour" />
         </div>
-        <div className="about_section-content">
+        <div className="about_section-content zoomIn">
           <span>I'm Favour Olaleru</span>
           <p>
             I specialize in designing and developing user-friendly web

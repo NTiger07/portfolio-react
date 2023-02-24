@@ -4,10 +4,10 @@ import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
-const Hero = (props) => {
+const Hero = () => {
   return (
     <div className="hero_section" id="scrollhero">
-      <div className="hero_section-content">
+      <div className="hero_section-content dissolveInTop">
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>
         <span id="fedev">I Am A Front-End Developer.</span>
@@ -37,7 +37,7 @@ const Hero = (props) => {
           <img src={github} alt="github" />
         </a>
       </div>
-      <div className="hero_section-contact">
+      <div className="hero_section-contact dissolveInBottom">
         <button>
           <svg
             stroke="currentColor"

@@ -11,3 +11,5 @@ hero name and fedev: dissolve up
 hero contact: dissolve bottom
 
 Individual projects and skills spans: zoom in
+
+disable scroll on eateregg click

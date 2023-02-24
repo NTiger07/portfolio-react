@@ -54,10 +54,6 @@ button {
   margin-right: 7vw;
 }
 
-/*Animation 1.03 - Dissolve In from Top*/
-.visibleNow .dissolveInTop {
-  -webkit-animation: dissolveInTop 0.7s ease-in-out;
-}
 @-webkit-keyframes dissolveInTop {
   0% {
     opacity: 0;
@@ -68,11 +64,21 @@ button {
     transform: translate3d(0, 0, 0);
   }
 }
-
-/*Animation 1.04 - Dissolve In from Bottom*/
-.visibleNow .dissolveInBottom {
-  -webkit-animation: dissolveInBottom 0.7s ease-in-out;
+@keyframes dissolveInTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
+.dissolveInTop {
+  -webkit-animation: dissolveInTop 0.7s ease-in-out;
+  animation: dissolveInTop 0.7s ease-in-out;
+}
+
 @-webkit-keyframes dissolveInBottom {
   0% {
     opacity: 0;
@@ -83,11 +89,21 @@ button {
     transform: translate3d(0, 0, 0);
   }
 }
-
-/*Animation 4.00 - Zoom In*/
-.visibleNow .zoomIn {
-  -webkit-animation: zoomIn 0.7s ease-out;
+@keyframes dissolveInBottom {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
+.dissolveInBottom {
+  -webkit-animation: dissolveInBottom 0.7s ease-in-out;
+  animation: dissolveInBottom 0.7s ease-in-out;
+}
+
 @-webkit-keyframes zoomIn {
   0% {
     transform: scale(0);
@@ -95,4 +111,16 @@ button {
   100% {
     transform: scale(1);
   }
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.zoomIn {
+  -webkit-animation: zoomIn 0.7s ease-out;
+  animation: zoomIn 0.7s ease-out;
 }
