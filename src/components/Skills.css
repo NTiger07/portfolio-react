@@ -26,10 +26,11 @@
   color: #fff;
   margin: 20px;
   background-color: #253345;
-  width: 8vw;
-  height: 2vw;
+  width: max-content;
   height: max-content;
   border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .skills_content img {
   width: 40px;
