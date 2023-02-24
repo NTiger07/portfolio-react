@@ -12,12 +12,12 @@ const Projects = () => {
     <div className="projects_section">
       <h1>MY PROJECTS</h1>
       <div className="projects_container">
-        <div className="project_card zoomIn">
-          <div className="project_image">
+        <div className="project_card">
+          <div className="project_image zoomIn">
             <span>VGNUP</span>
             <img src={recipe} alt="projectimage" />
           </div>
-          <div className="project_content">
+          <div className="project_content zoomIn">
             <span className="project-title">
               <b>Recipe App</b>
             </span>
@@ -65,12 +65,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div id="scrollproj" className="ana project_card zoomIn even">
-          <div className="project_image evenback">
+        <div id="scrollproj" className="ana project_card even">
+          <div className="project_image zoomIn evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />
           </div>
-          <div className="project_content evencontent">
+          <div className="project_content zoomIn evencontent">
             <span className="project-title">
               <b>Weather App</b>
             </span>
@@ -117,12 +117,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project_card zoomIn">
-          <div className="project_image">
+        <div className="project_card">
+          <div className="project_image zoomIn">
             <span>Room</span>
             <img src={room} alt="projectimage" />
           </div>
-          <div className="project_content">
+          <div className="project_content zoomIn">
             <span className="project-title">
               <b>Room</b>
             </span>
@@ -177,12 +177,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project_card zoomIn even">
-          <div className="project_image evenback">
+        <div className="project_card even">
+          <div className="project_image zoomIn evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />
           </div>
-          <div className="project_content evencontent">
+          <div className="project_content zoomIn evencontent">
             <span className="project-title">
               <b>Easy Bank</b>
             </span>
