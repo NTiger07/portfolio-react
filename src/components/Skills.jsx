@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { useInView } from "react-intersection-observer";
 import html from "../svgs/HTML.svg";
 import css from "../svgs/CSS.svg";
 import js from "../svgs/JavaScript.svg";
@@ -17,80 +18,79 @@ import npm from "../svgs/npmjs.svg";
 import netlify from "../svgs/netlify.svg";
 import "./Skills.css";
 
-class Skills extends Component {
-  render() {
-    return (
-      <div className="skills_section">
-        <h2>MY ECOSYSTEM</h2>
-        <div className="skills_content zoomIn">
-          <span className="zoomIn">
-            <img src={html} alt="html" />
-            HTML
-          </span>
-          <span className="zoomIn">
-            <img src={css} alt="css" />
-            CSS
-          </span>
-          <span className="zoomIn">
-            <img src={js} alt="js" />
-            JavaScript
-          </span>
-          <span className="zoomIn">
-            <img src={ts} alt="ts" />
-            TypeScript
-          </span>
-          <span className="zoomIn">
-            <img src={react} alt="react" />
-            ReactJS
-          </span>
-          <span className="zoomIn">
-            <img src={node} alt="node" />
-            NodeJS
-          </span>
-          <span className="zoomIn">
-            <img src={express} alt="express" />
-            ExpressJS
-          </span>
-          <span className="zoomIn">
-            <img src={api} alt="api" />
-            APIs
-          </span>
-          <span className="zoomIn">
-            <img src={postman} alt="postman" />
-            Postman
-          </span>
-          <span className="zoomIn">
-            <img src={axios} alt="axios" />
-            Axios
-          </span>
-          <span className="zoomIn">
-            <img src={nodemon} alt="nodemon" />
-            Nodemon
-          </span>
-          <span className="zoomIn">
-            <img src={netlify} alt="netlify" />
-            Netlify
-          </span>
-          <span className="zoomIn">
-            <img src={npm} alt="npm" />
-            NPM
-          </span>
-          <span className="zoomIn">
-            <img src={git} alt="git" />
-            Git
-          </span>
-          <span className="zoomIn">
-            <img src={github} alt="github" />
-            GitHub
-          </span>
-          <span className="zoomIn">
-            <img src={vscode} alt="vscode" />
-            VSCode
-          </span>
-        </div>
+const Skills = () => {
+  const { ref: skillsanim, inView: elementIsVisible } = useInView();
+  return (
+    <div className="skills_section">
+      <h2>MY ECOSYSTEM</h2>
+      <div className="skills_content">
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={html} alt="html" />
+          HTML
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={css} alt="css" />
+          CSS
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={js} alt="js" />
+          JavaScript
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={ts} alt="ts" />
+          TypeScript
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={react} alt="react" />
+          ReactJS
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={node} alt="node" />
+          NodeJS
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={express} alt="express" />
+          ExpressJS
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={api} alt="api" />
+          APIs
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={postman} alt="postman" />
+          Postman
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={axios} alt="axios" />
+          Axios
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={nodemon} alt="nodemon" />
+          Nodemon
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={netlify} alt="netlify" />
+          Netlify
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={npm} alt="npm" />
+          NPM
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={git} alt="git" />
+          Git
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={github} alt="github" />
+          GitHub
+        </span>
+        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+          <img src={vscode} alt="vscode" />
+          VSCode
+        </span>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Skills;
