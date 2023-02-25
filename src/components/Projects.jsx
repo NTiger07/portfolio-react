@@ -17,7 +17,7 @@ const Projects = () => {
     <div className="projects_section">
       <h1>MY PROJECTS</h1>
       <div className="projects_container">
-        <div className="project_card">
+        <div ref={projectanim1} className="project_card">
           <div className="project_image">
             <span>VGNUP</span>
             <img src={recipe} alt="projectimage" />
@@ -70,7 +70,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div id="scrollproj" className="ana project_card even">
+        <div
+          ref={projectanim1}
+          id="scrollproj"
+          className="ana project_card even"
+        >
           <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />
@@ -122,7 +126,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project_card">
+        <div ref={projectanim1} className="project_card">
           <div className="project_image">
             <span>Room</span>
             <img src={room} alt="projectimage" />
@@ -182,7 +186,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="project_card even">
+        <div ref={projectanim1} className="project_card even">
           <div className="project_image evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />

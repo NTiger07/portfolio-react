@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { useInView } from "react-intersection-observer";
 import html from "../svgs/HTML.svg";
 import css from "../svgs/CSS.svg";
