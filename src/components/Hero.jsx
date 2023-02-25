@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import twitter from "../svgs/twitter.svg";
 import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
 const Hero = () => {
+  const [elementIsVisible, setElementIsVisible] = useState(false);
+  const heroanim = useRef();
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries, observer) => {
+      const entry = entries[0];
+      setElementIsVisible(entry.isIntersecting);
+    });
+    observer.observe(heroanim.current);
+  }, []);
+
   return (
     <div className="hero_section" id="scrollhero">
-      <div className="hero_section-content dissolveInTop">
+      <div
+        ref={heroanim}
+        className={`hero_section-content ${
+          elementIsVisible ? "dissolveInBottom" : ""
+        }`}
+      >
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>
         <span id="fedev">I Am A Front-End Developer.</span>
@@ -37,7 +52,11 @@ const Hero = () => {
           <img src={github} alt="github" />
         </a>
       </div>
-      <div className="hero_section-contact dissolveInBottom">
+      <div
+        className={`hero_section-contact ${
+          elementIsVisible ? "dissolveInTop" : ""
+        }`}
+      >
         <button>
           <svg
             stroke="currentColor"
