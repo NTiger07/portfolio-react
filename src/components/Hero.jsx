@@ -1,20 +1,12 @@
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
+import { useInView } from "react-intersection-observer";
 import twitter from "../svgs/twitter.svg";
 import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
 const Hero = () => {
-  const [elementIsVisible, setElementIsVisible] = useState(false);
-  const heroanim = useRef();
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries, observer) => {
-      const entry = entries[0];
-      setElementIsVisible(entry.isIntersecting);
-    });
-    observer.observe(heroanim.current);
-  }, []);
-
+  const { ref: heroanim, inView: elementIsVisible } = useInView();
   return (
     <div className="hero_section" id="scrollhero">
       <div
