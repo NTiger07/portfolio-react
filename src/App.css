@@ -124,3 +124,6 @@ button {
   -webkit-animation: zoomIn 0.7s ease-out;
   animation: zoomIn 0.7s ease-out;
 }
+.disable_animations {
+  animation: none;
+}

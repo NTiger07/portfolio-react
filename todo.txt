@@ -1,19 +1,13 @@
-transition shit
-
 ABOUT IMAGE
 
 test all
 responsive
-
-onscroll
-
-hero name and fedev: dissolve up
-hero contact: dissolve bottom
-
-Individual projects and skills spans: zoom in
 
 disable scroll on eateregg click
 
 delay until font
 
 ABOUT IS BUGGY
+PROJECT IS BUGGY
+
+V. Internships

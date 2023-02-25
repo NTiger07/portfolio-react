@@ -18,73 +18,153 @@ import npm from "../svgs/npmjs.svg";
 import netlify from "../svgs/netlify.svg";
 import "./Skills.css";
 
-const Skills = () => {
+const Skills = (props) => {
   const { ref: skillsanim, inView: elementIsVisible } = useInView();
   return (
     <div className="skills_section">
       <h2>MY ECOSYSTEM</h2>
       <div className="skills_content">
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={html} alt="html" />
           HTML
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={css} alt="css" />
           CSS
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={js} alt="js" />
           JavaScript
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={ts} alt="ts" />
           TypeScript
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={react} alt="react" />
           ReactJS
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={node} alt="node" />
           NodeJS
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={express} alt="express" />
           ExpressJS
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={api} alt="api" />
           APIs
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={postman} alt="postman" />
           Postman
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={axios} alt="axios" />
           Axios
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={nodemon} alt="nodemon" />
           Nodemon
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={netlify} alt="netlify" />
           Netlify
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={npm} alt="npm" />
           NPM
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={git} alt="git" />
           Git
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={github} alt="github" />
           GitHub
         </span>
-        <span ref={skillsanim} className={elementIsVisible ? "zoomIn" : ""}>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
           <img src={vscode} alt="vscode" />
           VSCode
         </span>

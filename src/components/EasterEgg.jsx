@@ -1,7 +1,7 @@
 import React from "react";
 import "./EasterEgg.css";
 
-export default function EasterEgg() {
+export default function EasterEgg(props) {
   const handleSnap = () => {
     const scrollhero = document.getElementById("scrollhero");
     const scrollabout = document.getElementById("scrollabout");
@@ -14,6 +14,7 @@ export default function EasterEgg() {
     const fadeeaster = document.getElementsByClassName("amo")[0];
 
     const linesOfCode = [
+      "props.setDisableAnimations(true)",
       "fadeeaster.className = 'amo fade-out'",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
       "fadehero.className = 'fedev fade-out '",
@@ -29,6 +30,7 @@ export default function EasterEgg() {
       "fadeproj.className = 'even ana project_card'",
       "fadeabout.className = 'about_section-links'",
       "fadehero.className = 'fedev'",
+      "props.setDisableAnimations(false)",
     ];
 
     function executeCodeWithIntervals() {

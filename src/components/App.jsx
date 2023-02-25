@@ -14,6 +14,7 @@ import "../fonts/Sacramento/Sacramento-Regular.ttf";
 import "../App.css";
 
 const App = () => {
+  const [disableAnimations, setDisableAnimations] = React.useState(false);
   return (
     <div className="main_container" id="scrollhero">
       <BrowserRouter>
@@ -23,14 +24,14 @@ const App = () => {
             element={
               <>
                 <Navbar />
-                <Hero />
-                <About />
-                <Skills />
-                <Projects />
+                <Hero disableAnimations={disableAnimations} />
+                <About disableAnimations={disableAnimations} />
+                <Skills disableAnimations={disableAnimations} />
+                <Projects disableAnimations={disableAnimations} />
                 <Contact />
                 <div className="footerroof"></div>
                 <Footer />
-                <EasterEgg />
+                <EasterEgg setDisableAnimations={setDisableAnimations} />
               </>
             }
           />

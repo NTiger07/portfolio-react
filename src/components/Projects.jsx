@@ -8,7 +8,7 @@ import repo from "../svgs/repo.svg";
 import website from "../svgs/website.svg";
 import "./Projects.css";
 
-const Projects = () => {
+const Projects = (props) => {
   const { ref: projectanim1, inView: elementIsVisible1 } = useInView();
   const { ref: projectanim2, inView: elementIsVisible2 } = useInView();
   const { ref: projectanim3, inView: elementIsVisible3 } = useInView();
@@ -19,7 +19,9 @@ const Projects = () => {
       <div className="projects_container">
         <div
           ref={projectanim1}
-          className={`project_card ${elementIsVisible1 ? "zoomIn" : ""}`}
+          className={`project_card ${elementIsVisible1 ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
         >
           <div className="project_image">
             <span>VGNUP</span>
@@ -133,7 +135,9 @@ const Projects = () => {
         </div>
         <div
           ref={projectanim3}
-          className={`project_card ${elementIsVisible3 ? "zoomIn" : ""}`}
+          className={`project_card ${elementIsVisible3 ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
         >
           <div className="project_image">
             <span>Room</span>
@@ -196,7 +200,9 @@ const Projects = () => {
         </div>
         <div
           ref={projectanim4}
-          className={`project_card even ${elementIsVisible4 ? "zoomIn" : ""}`}
+          className={`project_card even ${elementIsVisible4 ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
         >
           <div className="project_image evenback">
             <span>Easy Bank</span>

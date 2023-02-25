@@ -4,7 +4,7 @@ import resume from "../svgs/resume.svg";
 import repo from "../svgs/repo.svg";
 import "./About.css";
 
-const About = () => {
+const About = (props) => {
   const { ref: aboutanim, inView: elementIsVisible } = useInView();
 
   return (
@@ -13,7 +13,9 @@ const About = () => {
       <div className="row">
         <div
           ref={aboutanim}
-          className={`about_section-image ${elementIsVisible ? "zoomIn" : ""}`}
+          className={`about_section-image ${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
         >
           <img src="" alt="favour" />
         </div>
@@ -21,7 +23,7 @@ const About = () => {
           ref={aboutanim}
           className={`about_section-content ${
             elementIsVisible ? "zoomIn" : ""
-          }`}
+          }${props.disableAnimations ? "disable_animations" : ""}`}
         >
           <span>I'm Favour Olaleru</span>
           <p>

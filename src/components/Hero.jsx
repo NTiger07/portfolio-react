@@ -5,7 +5,7 @@ import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
-const Hero = () => {
+const Hero = (props) => {
   const { ref: heroanim, inView: elementIsVisible } = useInView();
   return (
     <div className="hero_section" id="scrollhero">
@@ -13,7 +13,7 @@ const Hero = () => {
         ref={heroanim}
         className={`hero_section-content ${
           elementIsVisible ? "dissolveInBottom" : ""
-        }`}
+        } ${props.disableAnimations ? "disable_animations" : ""}`}
       >
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>
@@ -47,7 +47,7 @@ const Hero = () => {
       <div
         className={`hero_section-contact ${
           elementIsVisible ? "dissolveInTop" : ""
-        }`}
+        }${props.disableAnimations ? "disable_animations" : ""}`}
       >
         <button>
           <svg
