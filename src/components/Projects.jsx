@@ -80,7 +80,7 @@ const Projects = (props) => {
           id="scrollproj"
           className={`ana project_card even ${
             elementIsVisible2 ? "zoomIn" : ""
-          }`}
+          }${props.disableAnimations ? "disable_animations" : ""}`}
         >
           <div className="project_image evenback">
             <span>De Armas</span>
