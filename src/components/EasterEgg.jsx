@@ -13,6 +13,36 @@ export default function EasterEgg(props) {
     const fadeproj = document.getElementsByClassName("ana")[0];
     const fadeeaster = document.getElementsByClassName("amo")[0];
 
+    function preventScroll(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      return false;
+    }
+    function disableScroll() {
+      document
+        .querySelector("#scrollhero")
+        .addEventListener("wheel", preventScroll);
+      console.log("disabled");
+    }
+
+    function enableScroll() {
+      document
+        .querySelector("#scrollhero")
+        .removeEventListener("wheel", preventScroll);
+      console.log("enabled");
+    }
+
+    function executeCodeWithIntervals() {
+      let i = 0;
+      const intervalID = setInterval(() => {
+        eval(linesOfCode[i]);
+        i++;
+        if (i >= linesOfCode.length) {
+          clearInterval(intervalID);
+        }
+      }, 2000);
+    }
+
     const linesOfCode = [
       "props.setDisableAnimations(true)",
       "fadeeaster.className = 'amo fade-out'",
@@ -33,18 +63,9 @@ export default function EasterEgg(props) {
       "props.setDisableAnimations(false)",
     ];
 
-    function executeCodeWithIntervals() {
-      let i = 0;
-      const intervalID = setInterval(() => {
-        eval(linesOfCode[i]);
-        i++;
-        if (i >= linesOfCode.length) {
-          clearInterval(intervalID);
-        }
-      }, 2000);
-    }
-
+    disableScroll();
     executeCodeWithIntervals();
+    enableScroll();
   };
 
   return (
