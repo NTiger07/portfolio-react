@@ -17,7 +17,10 @@ const Projects = () => {
     <div className="projects_section">
       <h1>MY PROJECTS</h1>
       <div className="projects_container">
-        <div ref={projectanim1} className="project_card">
+        <div
+          ref={projectanim1}
+          className={`project_card ${elementIsVisible1 ? "zoomIn" : ""}`}
+        >
           <div className="project_image">
             <span>VGNUP</span>
             <img src={recipe} alt="projectimage" />
@@ -71,9 +74,11 @@ const Projects = () => {
           </div>
         </div>
         <div
-          ref={projectanim1}
+          ref={projectanim2}
           id="scrollproj"
-          className="ana project_card even"
+          className={`ana project_card even ${
+            elementIsVisible2 ? "zoomIn" : ""
+          }`}
         >
           <div className="project_image evenback">
             <span>De Armas</span>
@@ -126,7 +131,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div ref={projectanim1} className="project_card">
+        <div
+          ref={projectanim3}
+          className={`project_card ${elementIsVisible3 ? "zoomIn" : ""}`}
+        >
           <div className="project_image">
             <span>Room</span>
             <img src={room} alt="projectimage" />
@@ -186,7 +194,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div ref={projectanim1} className="project_card even">
+        <div
+          ref={projectanim4}
+          className={`project_card even ${elementIsVisible4 ? "zoomIn" : ""}`}
+        >
           <div className="project_image evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />
