@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import recipe from "../projectimages/recipe.png";
 import weather from "../projectimages/weather.png";
 import room from "../projectimages/room.png";
@@ -8,16 +9,20 @@ import website from "../svgs/website.svg";
 import "./Projects.css";
 
 const Projects = () => {
+  const { ref: projectanim1, inView: elementIsVisible1 } = useInView();
+  const { ref: projectanim2, inView: elementIsVisible2 } = useInView();
+  const { ref: projectanim3, inView: elementIsVisible3 } = useInView();
+  const { ref: projectanim4, inView: elementIsVisible4 } = useInView();
   return (
     <div className="projects_section">
       <h1>MY PROJECTS</h1>
       <div className="projects_container">
         <div className="project_card">
-          <div className="project_image zoomIn">
+          <div className="project_image">
             <span>VGNUP</span>
             <img src={recipe} alt="projectimage" />
           </div>
-          <div className="project_content zoomIn">
+          <div className="project_content">
             <span className="project-title">
               <b>Recipe App</b>
             </span>
@@ -66,11 +71,11 @@ const Projects = () => {
           </div>
         </div>
         <div id="scrollproj" className="ana project_card even">
-          <div className="project_image zoomIn evenback">
+          <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />
           </div>
-          <div className="project_content zoomIn evencontent">
+          <div className="project_content evencontent">
             <span className="project-title">
               <b>Weather App</b>
             </span>
@@ -118,11 +123,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="project_card">
-          <div className="project_image zoomIn">
+          <div className="project_image">
             <span>Room</span>
             <img src={room} alt="projectimage" />
           </div>
-          <div className="project_content zoomIn">
+          <div className="project_content">
             <span className="project-title">
               <b>Room</b>
             </span>
@@ -178,11 +183,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="project_card even">
-          <div className="project_image zoomIn evenback">
+          <div className="project_image evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />
           </div>
-          <div className="project_content zoomIn evencontent">
+          <div className="project_content evencontent">
             <span className="project-title">
               <b>Easy Bank</b>
             </span>

@@ -15,3 +15,5 @@ Individual projects and skills spans: zoom in
 disable scroll on eateregg click
 
 delay until font
+
+ABOUT IS BUGGY
