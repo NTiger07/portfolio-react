@@ -6,8 +6,6 @@ responsive
 V. Internships
 
 
-ensure project anim
-
 disable mobile scroll
 
 we shouldnt exist

@@ -13,13 +13,13 @@ const Projects = (props) => {
     threshold: 0.5,
   });
   const { ref: projectanim2, inView: elementIsVisible2 } = useInView({
-    threshold: 0.5,
+    threshold: 0.65,
   });
   const { ref: projectanim3, inView: elementIsVisible3 } = useInView({
-    threshold: 0.5,
+    threshold: 0.65,
   });
   const { ref: projectanim4, inView: elementIsVisible4 } = useInView({
-    threshold: 0.5,
+    threshold: 0.65,
   });
   return (
     <div className="projects_section">
