@@ -1,7 +1,7 @@
 .about_section {
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: max-content;
   background-color: #1b2430;
   padding-top: 7vh;
   padding-bottom: 7vh;
@@ -21,7 +21,7 @@
 }
 .about_section-image {
   width: 40%;
-  height: 70%;
+  height: 100px;
   background-color: #fff;
 }
 .about_section-content {
@@ -41,6 +41,7 @@
 }
 .about_section-content p {
   font-size: 1.1vw;
+  padding-bottom: 20px;
 }
 .about_section-links {
   margin-top: 50px;
@@ -76,10 +77,17 @@
   .about_section {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    height: 90vh;
+    height: max-content;
+  }
+  .about_section h1 {
+    padding-bottom: 20px;
+  }
+  .about_section-image {
+    height: 45vh;
   }
   .about_section-content p {
     font-size: 1.2vw;
+    padding-bottom: 20px;
   }
   .about_section-links {
     margin-top: 30px;
@@ -96,26 +104,32 @@
   .about_section {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    height: 80vh;
+    height: max-content;
   }
   .about_section h1 {
     font-size: 2rem;
   }
   .about_section-image {
-    height: 60%;
+    height: 40vh;
+  }
+  .about_section-content span {
+    padding-bottom: 20px;
   }
   .about_section-content p {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    padding-bottom: 20px;
   }
   .about_section-links span {
+    align-items: center;
     font-size: 10px;
+    padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 @media screen and (max-width: 425px) {
   .about_section {
-    height: 100vh;
+    height: max-content;
   }
   .about_section h1 {
     font-size: 2rem;
@@ -127,7 +141,8 @@
   }
   .about_section-image {
     width: 90%;
-    height: 60%;
+
+    height: 45vh;
   }
   .about_section-content {
     padding-top: 20px;
@@ -140,7 +155,8 @@
     padding-bottom: 10px;
   }
   .about_section-content p {
-    font-size: 2.5vw;
+    font-size: 3vw;
+    padding-bottom: 20px;
   }
   .about_section-links span {
     font-size: 10px;
@@ -148,7 +164,7 @@
   }
   @media screen and (max-width: 375px) {
     .about_section-content p {
-      font-size: 2.7vw;
+      font-size: 3.3vw;
     }
   }
 }

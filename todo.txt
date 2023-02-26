@@ -6,7 +6,6 @@ responsive
 V. Internships
 
 
-increase text size of ABOUT
 ensure project anim
 
 disable mobile scroll
