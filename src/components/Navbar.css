@@ -50,7 +50,7 @@
 }
 @media screen and (max-width: 425px) {
   .logo_container a {
-    font-size: 7vw;
+    font-size: 9vw;
   }
   .navlinks_mobile {
     display: flex;
