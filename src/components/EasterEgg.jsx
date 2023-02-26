@@ -20,10 +20,13 @@ export default function EasterEgg(props) {
     }
 
     function disableScroll() {
-      document
-        .querySelector("#scrollhero")
-        .addEventListener("wheel", preventScroll);
-      console.log("disabled");
+      // document
+      //   .querySelector("#scrollhero")
+      scrollhero
+        .addEventListener("wheel", preventScroll)
+        .addEventListener("touchmove", preventScroll)
+        .addEventListener("mousewheel", preventScroll)
+        .addEventListener("DOMMouseScroll", preventScroll);
     }
 
     function executeCodeWithIntervals() {
@@ -41,10 +44,13 @@ export default function EasterEgg(props) {
     }
 
     function enableScroll() {
-      document
-        .querySelector("#scrollhero")
-        .removeEventListener("wheel", preventScroll);
-      console.log("enabled");
+      // document
+      //   .querySelector("#scrollhero")
+      scrollhero
+        .removeEventListener("wheel", preventScroll)
+        .removeEventListener("touchmove", preventScroll)
+        .removeEventListener("mousewheel", preventScroll)
+        .removeEventListener("DOMMouseScroll", preventScroll);
     }
 
     const linesOfCode = [
