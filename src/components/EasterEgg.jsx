@@ -18,18 +18,12 @@ export default function EasterEgg(props) {
       e.stopPropagation();
       return false;
     }
+
     function disableScroll() {
       document
         .querySelector("#scrollhero")
         .addEventListener("wheel", preventScroll);
       console.log("disabled");
-    }
-
-    function enableScroll() {
-      document
-        .querySelector("#scrollhero")
-        .removeEventListener("wheel", preventScroll);
-      console.log("enabled");
     }
 
     function executeCodeWithIntervals() {
@@ -43,7 +37,15 @@ export default function EasterEgg(props) {
       }, 2000);
     }
 
+    function enableScroll() {
+      document
+        .querySelector("#scrollhero")
+        .removeEventListener("wheel", preventScroll);
+      console.log("enabled");
+    }
+
     const linesOfCode = [
+      "disableScroll()",
       "props.setDisableAnimations(true)",
       "fadeeaster.className = 'amo fade-out'",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
@@ -56,6 +58,7 @@ export default function EasterEgg(props) {
       "fadeabout.className = 'about_section-links fade-out '",
       "console.log('done')",
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
+      "enableScroll()",
       "fadeeaster.className = 'amo'",
       "fadeproj.className = 'even ana project_card'",
       "fadeabout.className = 'about_section-links'",
@@ -63,9 +66,9 @@ export default function EasterEgg(props) {
       "props.setDisableAnimations(false)",
     ];
 
-    disableScroll();
+    // disableScroll();
     executeCodeWithIntervals();
-    enableScroll();
+    // enableScroll();
   };
 
   return (
