@@ -20,9 +20,8 @@ export default function EasterEgg(props) {
     }
 
     function disableScroll() {
-      // document
-      //   .querySelector("#scrollhero")
-      scrollhero
+      document
+        .querySelector("#scrollhero")
         .addEventListener("wheel", preventScroll)
         .addEventListener("touchmove", preventScroll)
         .addEventListener("mousewheel", preventScroll)
@@ -44,9 +43,8 @@ export default function EasterEgg(props) {
     }
 
     function enableScroll() {
-      // document
-      //   .querySelector("#scrollhero")
-      scrollhero
+      document
+        .querySelector("#scrollhero")
         .removeEventListener("wheel", preventScroll)
         .removeEventListener("touchmove", preventScroll)
         .removeEventListener("mousewheel", preventScroll)
