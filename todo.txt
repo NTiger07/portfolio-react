@@ -3,9 +3,7 @@ ABOUT IMAGE
 test all
 responsive
 
-disable scroll on eateregg click
-
 ABOUT IS BUGGY
 PROJECT IS BUGGY
-eslint
+
 V. Internships

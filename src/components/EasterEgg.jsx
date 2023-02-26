@@ -1,5 +1,3 @@
-/* eslint-disable no-eval */
-/* eslint-disable no-unused-vars */
 import React from "react";
 import "./EasterEgg.css";
 
