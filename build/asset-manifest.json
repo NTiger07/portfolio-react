@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.694a46d5.css",
-    "main.js": "/static/js/main.cdafa023.js",
+    "main.css": "/static/css/main.0dbf724e.css",
+    "main.js": "/static/js/main.bd10b69a.js",
     "static/media/weather.png": "/static/media/weather.7595059a616877907b63.png",
     "static/media/recipe.png": "/static/media/recipe.64572e52cf24493fc0b1.png",
     "static/media/room.png": "/static/media/room.967b759bb6e8833b48b1.png",
@@ -21,8 +21,8 @@
     "static/media/github.svg": "/static/media/github.5bf3dac1369ccffec146d51fe913b4b3.svg",
     "static/media/VSCode-Dark.svg": "/static/media/VSCode-Dark.832fcc7f88399f79848f458bf495a30d.svg",
     "static/media/JavaScript.svg": "/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
-    "static/media/repo.svg": "/static/media/repo.3d7e72fa4d7e1adc715481796e1bde8c.svg",
     "index.html": "/index.html",
+    "static/media/repo.svg": "/static/media/repo.3d7e72fa4d7e1adc715481796e1bde8c.svg",
     "static/media/nodemon.svg": "/static/media/nodemon.65c956a9a63b2b8b7ec2c6a36050f3bf.svg",
     "static/media/CSS.svg": "/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/twitter.svg": "/static/media/twitter.ce1df92f156a175917ceb25170d9e1e6.svg",
@@ -34,11 +34,11 @@
     "static/media/website.svg": "/static/media/website.ee4289fefdec852e0d30c4b6ffe293fc.svg",
     "static/media/close.svg": "/static/media/close.0d5b171756ac4eb2e610b213a8799995.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.dc022bac537a273572af58dec556ed7e.svg",
-    "main.694a46d5.css.map": "/static/css/main.694a46d5.css.map",
-    "main.cdafa023.js.map": "/static/js/main.cdafa023.js.map"
+    "main.0dbf724e.css.map": "/static/css/main.0dbf724e.css.map",
+    "main.bd10b69a.js.map": "/static/js/main.bd10b69a.js.map"
   },
   "entrypoints": [
-    "static/css/main.694a46d5.css",
-    "static/js/main.cdafa023.js"
+    "static/css/main.0dbf724e.css",
+    "static/js/main.bd10b69a.js"
   ]
 }

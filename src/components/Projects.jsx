@@ -9,10 +9,18 @@ import website from "../svgs/website.svg";
 import "./Projects.css";
 
 const Projects = (props) => {
-  const { ref: projectanim1, inView: elementIsVisible1 } = useInView();
-  const { ref: projectanim2, inView: elementIsVisible2 } = useInView();
-  const { ref: projectanim3, inView: elementIsVisible3 } = useInView();
-  const { ref: projectanim4, inView: elementIsVisible4 } = useInView();
+  const { ref: projectanim1, inView: elementIsVisible1 } = useInView({
+    threshold: 0.5,
+  });
+  const { ref: projectanim2, inView: elementIsVisible2 } = useInView({
+    threshold: 0.5,
+  });
+  const { ref: projectanim3, inView: elementIsVisible3 } = useInView({
+    threshold: 0.5,
+  });
+  const { ref: projectanim4, inView: elementIsVisible4 } = useInView({
+    threshold: 0.5,
+  });
   return (
     <div className="projects_section">
       <h1>MY PROJECTS</h1>

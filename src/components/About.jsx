@@ -5,7 +5,9 @@ import repo from "../svgs/repo.svg";
 import "./About.css";
 
 const About = (props) => {
-  const { ref: aboutanim, inView: elementIsVisible } = useInView();
+  const { ref: aboutanim, inView: elementIsVisible } = useInView({
+    threshold: 0.5,
+  });
 
   return (
     <div className="about_section" id="scrollabout">

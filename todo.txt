@@ -3,7 +3,4 @@ ABOUT IMAGE
 test all
 responsive
 
-ABOUT IS BUGGY
-PROJECT IS BUGGY
-
 V. Internships
