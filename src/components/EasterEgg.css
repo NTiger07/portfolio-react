@@ -16,6 +16,9 @@
   border: none;
   border-radius: 12px;
 }
+.amo {
+  color: #fff;
+}
 @-webkit-keyframes fade-out {
   0% {
     opacity: 1;
