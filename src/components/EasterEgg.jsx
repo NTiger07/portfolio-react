@@ -1,3 +1,5 @@
+/* eslint-disable no-eval */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "./EasterEgg.css";
 
@@ -28,13 +30,16 @@ export default function EasterEgg(props) {
 
     function executeCodeWithIntervals() {
       let i = 0;
-      const intervalID = setInterval(() => {
-        eval(linesOfCode[i]);
-        i++;
-        if (i >= linesOfCode.length) {
-          clearInterval(intervalID);
-        }
-      }, 2000);
+      const intervalID = setInterval(
+        () => {
+          eval(linesOfCode[i]);
+          i++;
+          if (i >= linesOfCode.length) {
+            clearInterval(intervalID);
+          }
+        },
+        i >= 11 ? 0 : 2000
+      );
     }
 
     function enableScroll() {
