@@ -6,6 +6,6 @@ responsive
 V. Internships
 
 
-disable mobile scroll
+disable mobile scroll?
 
 we shouldnt exist
