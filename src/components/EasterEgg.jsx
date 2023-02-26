@@ -54,7 +54,7 @@ export default function EasterEgg(props) {
       "fadehero.className = 'fedev fade-out '",
       "console.log('done')",
       "scrollproj.scrollIntoView({ behavior: 'smooth' })",
-      "fadeproj.className = 'even ana project_card fade-out'",
+      "fadeproj.className = 'ana fade-out'",
       "console.log('done')",
       "scrollabout.scrollIntoView({ behavior: 'smooth' })",
       "fadeabout.className = 'about_section-links fade-out '",
@@ -63,7 +63,7 @@ export default function EasterEgg(props) {
       "enableScroll()",
       "props.setDisableAnimations(false)",
       "fadeeaster.className = 'amo'",
-      "fadeproj.className = 'even ana project_card'",
+      "fadeproj.className = 'even project_card'",
       "fadeabout.className = 'about_section-links'",
       "fadehero.className = 'fedev'",
     ];

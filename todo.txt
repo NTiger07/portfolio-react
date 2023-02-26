@@ -9,7 +9,5 @@ V. Internships
 ensure project anim
 
 disable mobile scroll
-remove only text of de armas project
-
 
 we shouldnt exist

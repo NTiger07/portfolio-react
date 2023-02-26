@@ -86,9 +86,9 @@ const Projects = (props) => {
         <div
           ref={projectanim2}
           id="scrollproj"
-          className={`ana project_card even ${
-            elementIsVisible2 ? "zoomIn" : ""
-          }${props.disableAnimations ? "disable_animations" : ""}`}
+          className={`project_card even ${elementIsVisible2 ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
         >
           <div className="project_image evenback">
             <span>De Armas</span>
@@ -98,7 +98,7 @@ const Projects = (props) => {
             <span className="project-title">
               <b>Weather App</b>
             </span>
-            <p>
+            <p className="ana">
               This Weather App is an easy and convenient way to quickly check
               the current temperature, description, humidity and wind speed of
               any city or country. Using the OpenWeatherMap API users can easily
