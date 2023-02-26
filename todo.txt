@@ -8,8 +8,10 @@ V. Internships
 
 increase text size of ABOUT
 ensure project anim
-increase size of logo
 name on one line if possible
 
 disable mobile scroll
 remove only text of de armas project
+
+
+we shouldnt exist
