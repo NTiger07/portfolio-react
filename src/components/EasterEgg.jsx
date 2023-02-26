@@ -45,7 +45,6 @@ export default function EasterEgg(props) {
     }
 
     const linesOfCode = [
-      "disableScroll()",
       "props.setDisableAnimations(true)",
       "fadeeaster.className = 'amo fade-out'",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
@@ -59,16 +58,15 @@ export default function EasterEgg(props) {
       "console.log('done')",
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
       "enableScroll()",
+      "props.setDisableAnimations(false)",
       "fadeeaster.className = 'amo'",
       "fadeproj.className = 'even ana project_card'",
       "fadeabout.className = 'about_section-links'",
       "fadehero.className = 'fedev'",
-      "props.setDisableAnimations(false)",
     ];
 
-    // disableScroll();
+    disableScroll();
     executeCodeWithIntervals();
-    // enableScroll();
   };
 
   return (
