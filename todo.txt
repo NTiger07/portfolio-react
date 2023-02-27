@@ -1,1 +1,3 @@
 ABOUT IMAGE
+
+disable scrollbar
