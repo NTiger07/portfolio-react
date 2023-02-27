@@ -22,8 +22,8 @@ export default function EasterEgg(props) {
     function disableScroll() {
       document
         .querySelector("#scrollhero")
-        .addEventListener("wheel", preventScroll);
-      // .addEventListener("touchmove", preventScroll);
+        // .addEventListener("wheel", preventScroll)
+        .addEventListener("touchmove", preventScroll);
       // .addEventListener("mousewheel", preventScroll)
       // .addEventListener("DOMMouseScroll", preventScroll);
       console.log("disabled");
@@ -39,43 +39,42 @@ export default function EasterEgg(props) {
             clearInterval(intervalID);
           }
         },
-        i >= 11 ? 0 : 2000
+        i >= 10 ? 0 : 2000
       );
     }
 
     function enableScroll() {
       document
         .querySelector("#scrollhero")
-        .removeEventListener("wheel", preventScroll);
-      // .removeEventListener("touchmove", preventScroll);
-      console.log("enabled");
+        // .removeEventListener("wheel", preventScroll);
+        .removeEventListener("touchmove", preventScroll);
       // .removeEventListener("mousewheel", preventScroll)
       // .removeEventListener("DOMMouseScroll", preventScroll);
+      console.log("enabled");
     }
 
     const linesOfCode = [
-      "disableScroll()",
       "fadeeaster.className = 'amo fade-out'",
       "props.setDisableAnimations(true)",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
       "fadehero.className = 'fedev fade-out '",
-      "console.log('done')",
+      "console.log('hero done')",
       "scrollproj.scrollIntoView({ behavior: 'smooth' })",
       "fadeproj.className = 'ana fade-out'",
-      "console.log('done')",
+      "console.log('project done')",
       "scrollabout.scrollIntoView({ behavior: 'smooth' })",
       "fadeabout.className = 'about_section-links fade-out '",
-      "console.log('done')",
+      "console.log('about links done')",
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
       "enableScroll()",
       "props.setDisableAnimations(false)",
       "fadeeaster.className = 'amo'",
-      "fadeproj.className = 'even project_card'",
+      "fadeproj.className = 'ana'",
       "fadeabout.className = 'about_section-links'",
       "fadehero.className = 'fedev'",
     ];
 
-    // disableScroll();
+    disableScroll();
     executeCodeWithIntervals();
   };
 

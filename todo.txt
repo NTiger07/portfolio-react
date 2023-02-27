@@ -1,6 +1,5 @@
 ABOUT IMAGE
 
-
 scroll lock not working at all again
 
 we shouldnt exist
