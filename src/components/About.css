@@ -130,6 +130,7 @@
 @media screen and (max-width: 425px) {
   .about_section {
     height: max-content;
+    padding-top: 2vh;
   }
   .about_section h1 {
     font-size: 2rem;
@@ -141,7 +142,6 @@
   }
   .about_section-image {
     width: 90%;
-
     height: 45vh;
   }
   .about_section-content {
@@ -163,6 +163,9 @@
     padding-bottom: 0;
   }
   @media screen and (max-width: 375px) {
+    .about_section {
+      padding-top: 2vh;
+    }
     .about_section-content p {
       font-size: 3.3vw;
     }
