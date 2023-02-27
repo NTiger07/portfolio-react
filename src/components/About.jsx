@@ -10,7 +10,7 @@ const About = (props) => {
   });
 
   return (
-    <div className="about_section" id="scrollabout">
+    <div className="about_section">
       <h1>ABOUT ME</h1>
       <div className="row">
         <div
@@ -23,6 +23,7 @@ const About = (props) => {
         </div>
         <div
           ref={aboutanim}
+          id="scrollabout"
           className={`about_section-content ${
             elementIsVisible ? "zoomIn" : ""
           }${props.disableAnimations ? "disable_animations" : ""}`}

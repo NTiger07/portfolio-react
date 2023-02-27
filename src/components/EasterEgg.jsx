@@ -20,14 +20,13 @@ export default function EasterEgg(props) {
     }
 
     function disableScroll() {
-      document.addEventListener("DOMContentLoaded", function () {
-        document
-          .querySelector("#scrollhero")
-          .addEventListener("wheel", preventScroll)
-          .addEventListener("touchmove", preventScroll)
-          .addEventListener("mousewheel", preventScroll)
-          .addEventListener("DOMMouseScroll", preventScroll);
-      });
+      document
+        .querySelector("#scrollhero")
+        .addEventListener("wheel", preventScroll);
+      // .addEventListener("touchmove", preventScroll);
+      // .addEventListener("mousewheel", preventScroll)
+      // .addEventListener("DOMMouseScroll", preventScroll);
+      console.log("disabled");
     }
 
     function executeCodeWithIntervals() {
@@ -45,19 +44,19 @@ export default function EasterEgg(props) {
     }
 
     function enableScroll() {
-      document.addEventListener("DOMContentLoaded", function () {
-        document
-          .querySelector("#scrollhero")
-          .removeEventListener("wheel", preventScroll)
-          .removeEventListener("touchmove", preventScroll)
-          .removeEventListener("mousewheel", preventScroll)
-          .removeEventListener("DOMMouseScroll", preventScroll);
-      });
+      document
+        .querySelector("#scrollhero")
+        .removeEventListener("wheel", preventScroll);
+      // .removeEventListener("touchmove", preventScroll);
+      console.log("enabled");
+      // .removeEventListener("mousewheel", preventScroll)
+      // .removeEventListener("DOMMouseScroll", preventScroll);
     }
 
     const linesOfCode = [
-      "props.setDisableAnimations(true)",
+      "disableScroll()",
       "fadeeaster.className = 'amo fade-out'",
+      "props.setDisableAnimations(true)",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
       "fadehero.className = 'fedev fade-out '",
       "console.log('done')",
@@ -76,7 +75,7 @@ export default function EasterEgg(props) {
       "fadehero.className = 'fedev'",
     ];
 
-    disableScroll();
+    // disableScroll();
     executeCodeWithIntervals();
   };
 

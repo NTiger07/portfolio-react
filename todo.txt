@@ -1,11 +1,10 @@
 ABOUT IMAGE
 
-test all
 responsive
 
-V. Internships
-
-
-disable mobile scroll?
+scroll to view links about
+hero max height for mobile view
+scroll lock not working at all again
 
 we shouldnt exist
+
