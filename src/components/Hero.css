@@ -135,6 +135,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .hero_section-content {
+    padding-bottom: 2vh;
+  }
   .hero_section-content span {
     font-size: 6vw;
   }
@@ -152,9 +155,11 @@
   .hero_section {
     padding-left: 4vw;
     padding-right: 4vw;
+    height: 100vh;
   }
   .hero_section-content {
     padding-top: 4vh;
+    padding-bottom: 2vh;
   }
   .hero_section-content h1 {
     font-size: 16px;
@@ -183,7 +188,19 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 375px) {
+  .hero_section {
+    height: 100vh;
+  }
+  .hero_section-content p {
+    font-size: 16px;
+    line-height: 1.8rem;
+  }
+}
 @media screen and (max-width: 320px) {
+  .hero_section {
+    height: 100vh;
+  }
   .hero_section-content h1 {
     padding-bottom: 20px;
   }
