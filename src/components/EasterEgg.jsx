@@ -20,13 +20,11 @@ export default function EasterEgg(props) {
     }
 
     function disableScroll() {
-      document
-        .querySelector("#scrollhero")
-        // .addEventListener("wheel", preventScroll)
-        .addEventListener("touchmove", preventScroll);
-      // .addEventListener("mousewheel", preventScroll)
-      // .addEventListener("DOMMouseScroll", preventScroll);
-      console.log("disabled");
+      var element = document.querySelector("#scrollhero");
+      element.addEventListener("wheel", preventScroll);
+      element.addEventListener("touchmove", preventScroll);
+      element.addEventListener("mousewheel", preventScroll);
+      element.addEventListener("DOMMouseScroll", preventScroll);
     }
 
     function executeCodeWithIntervals() {
@@ -44,13 +42,11 @@ export default function EasterEgg(props) {
     }
 
     function enableScroll() {
-      document
-        .querySelector("#scrollhero")
-        // .removeEventListener("wheel", preventScroll);
-        .removeEventListener("touchmove", preventScroll);
-      // .removeEventListener("mousewheel", preventScroll)
-      // .removeEventListener("DOMMouseScroll", preventScroll);
-      console.log("enabled");
+      var element = document.querySelector("#scrollhero");
+      element.removeEventListener("wheel", preventScroll);
+      element.removeEventListener("touchmove", preventScroll);
+      element.removeEventListener("mousewheel", preventScroll);
+      element.removeEventListener("DOMMouseScroll", preventScroll);
     }
 
     const linesOfCode = [
@@ -66,8 +62,8 @@ export default function EasterEgg(props) {
       "fadeabout.className = 'about_section-links fade-out '",
       "console.log('about links done')",
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
-      "enableScroll()",
       "props.setDisableAnimations(false)",
+      "enableScroll()",
       "fadeeaster.className = 'amo'",
       "fadeproj.className = 'ana'",
       "fadeabout.className = 'about_section-links'",
