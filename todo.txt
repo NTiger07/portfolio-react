@@ -1,3 +1,5 @@
 ABOUT IMAGE
 
 disable scrollbar
+
+user xp (reduce zoomIn)
