@@ -10,16 +10,16 @@ import "./Projects.css";
 
 const Projects = (props) => {
   const { ref: projectanim1, inView: elementIsVisible1 } = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
   const { ref: projectanim2, inView: elementIsVisible2 } = useInView({
-    threshold: 0.65,
+    threshold: 0.1,
   });
   const { ref: projectanim3, inView: elementIsVisible3 } = useInView({
-    threshold: 0.65,
+    threshold: 0.1,
   });
   const { ref: projectanim4, inView: elementIsVisible4 } = useInView({
-    threshold: 0.65,
+    threshold: 0.1,
   });
   return (
     <div className="projects_section">
