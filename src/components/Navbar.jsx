@@ -37,16 +37,24 @@ export default function Navbar() {
         <div className="navlinks_mobile">
           <ul className="nav-list">
             <li className="nav-links">
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={toggle}>
+                Home
+              </Link>
             </li>
             <li className="nav-links">
-              <Link to="/about">About Me</Link>
+              <Link to="/about" onClick={toggle}>
+                About Me
+              </Link>
             </li>
             <li className="nav-links">
-              <Link to="/skills">Skills</Link>
+              <Link to="/skills" onClick={toggle}>
+                Skills
+              </Link>
             </li>
             <li className="nav-links">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" onClick={toggle}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
