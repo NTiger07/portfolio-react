@@ -1,5 +1,4 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import recipe from "../projectimages/recipe.png";
 import weather from "../projectimages/weather.png";
 import room from "../projectimages/room.png";
@@ -9,28 +8,11 @@ import website from "../svgs/website.svg";
 import "./Projects.css";
 
 const Projects = (props) => {
-  const { ref: projectanim1, inView: elementIsVisible1 } = useInView({
-    threshold: 0.1,
-  });
-  const { ref: projectanim2, inView: elementIsVisible2 } = useInView({
-    threshold: 0.1,
-  });
-  const { ref: projectanim3, inView: elementIsVisible3 } = useInView({
-    threshold: 0.1,
-  });
-  const { ref: projectanim4, inView: elementIsVisible4 } = useInView({
-    threshold: 0.1,
-  });
   return (
     <div className="projects_section">
       <h1>MY PROJECTS</h1>
       <div className="projects_container">
-        <div
-          ref={projectanim1}
-          className={`project_card ${elementIsVisible1 ? "zoomIn" : ""}${
-            props.disableAnimations ? "disable_animations" : ""
-          }`}
-        >
+        <div className="project_card">
           <div className="project_image">
             <span>VGNUP</span>
             <img src={recipe} alt="projectimage" />
@@ -83,13 +65,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div
-          ref={projectanim2}
-          id="scrollproj"
-          className={`project_card even ${elementIsVisible2 ? "zoomIn" : ""}${
-            props.disableAnimations ? "disable_animations" : ""
-          }`}
-        >
+        <div className="project_card">
           <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />
@@ -141,12 +117,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div
-          ref={projectanim3}
-          className={`project_card ${elementIsVisible3 ? "zoomIn" : ""}${
-            props.disableAnimations ? "disable_animations" : ""
-          }`}
-        >
+        <div className="project_card">
           <div className="project_image">
             <span>Room</span>
             <img src={room} alt="projectimage" />
@@ -206,12 +177,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div
-          ref={projectanim4}
-          className={`project_card even ${elementIsVisible4 ? "zoomIn" : ""}${
-            props.disableAnimations ? "disable_animations" : ""
-          }`}
-        >
+        <div className="project_card">
           <div className="project_image evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />

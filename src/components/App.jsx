@@ -25,9 +25,9 @@ const App = () => {
               <>
                 <Navbar />
                 <Hero disableAnimations={disableAnimations} />
-                <About disableAnimations={disableAnimations} />
+                <About />
                 <Skills disableAnimations={disableAnimations} />
-                <Projects disableAnimations={disableAnimations} />
+                <Projects />
                 <Contact />
                 <div className="footerroof"></div>
                 <Footer />

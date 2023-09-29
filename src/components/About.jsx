@@ -1,33 +1,17 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import resume from "../svgs/resume.svg";
 import repo from "../svgs/repo.svg";
 import "./About.css";
 
 const About = (props) => {
-  const { ref: aboutanim, inView: elementIsVisible } = useInView({
-    threshold: 0.5,
-  });
-
   return (
     <div className="about_section">
       <h1>ABOUT ME</h1>
       <div className="row">
-        <div
-          ref={aboutanim}
-          className={`about_section-image ${elementIsVisible ? "zoomIn" : ""}${
-            props.disableAnimations ? "disable_animations" : ""
-          }`}
-        >
+        <div className="about_section-image">
           <img src="" alt="favour" />
         </div>
-        <div
-          ref={aboutanim}
-          id="scrollabout"
-          className={`about_section-content ${
-            elementIsVisible ? "zoomIn" : ""
-          }${props.disableAnimations ? "disable_animations" : ""}`}
-        >
+        <div className="about_section-content">
           <span>I'm Favour Olaleru</span>
           <p>
             I specialize in designing and developing user-friendly web
