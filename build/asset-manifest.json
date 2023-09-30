@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b7bc01a.css",
-    "main.js": "/static/js/main.da395db7.js",
+    "main.css": "/static/css/main.3261ddc0.css",
+    "main.js": "/static/js/main.35aee751.js",
     "static/media/weather.png": "/static/media/weather.7595059a616877907b63.png",
     "static/media/recipe.png": "/static/media/recipe.64572e52cf24493fc0b1.png",
     "static/media/room.png": "/static/media/room.967b759bb6e8833b48b1.png",
@@ -22,6 +22,7 @@
     "static/media/VSCode-Dark.svg": "/static/media/VSCode-Dark.832fcc7f88399f79848f458bf495a30d.svg",
     "static/media/JavaScript.svg": "/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
     "index.html": "/index.html",
+    "static/media/TailwindCSS-Dark.svg": "/static/media/TailwindCSS-Dark.64f865ec00b139cb9ae7b35692bd0ec7.svg",
     "static/media/repo.svg": "/static/media/repo.3d7e72fa4d7e1adc715481796e1bde8c.svg",
     "static/media/nodemon.svg": "/static/media/nodemon.65c956a9a63b2b8b7ec2c6a36050f3bf.svg",
     "static/media/CSS.svg": "/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
@@ -34,11 +35,11 @@
     "static/media/website.svg": "/static/media/website.ee4289fefdec852e0d30c4b6ffe293fc.svg",
     "static/media/close.svg": "/static/media/close.0d5b171756ac4eb2e610b213a8799995.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.dc022bac537a273572af58dec556ed7e.svg",
-    "main.5b7bc01a.css.map": "/static/css/main.5b7bc01a.css.map",
-    "main.da395db7.js.map": "/static/js/main.da395db7.js.map"
+    "main.3261ddc0.css.map": "/static/css/main.3261ddc0.css.map",
+    "main.35aee751.js.map": "/static/js/main.35aee751.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b7bc01a.css",
-    "static/js/main.da395db7.js"
+    "static/css/main.3261ddc0.css",
+    "static/js/main.35aee751.js"
   ]
 }
