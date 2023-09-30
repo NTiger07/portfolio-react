@@ -73,8 +73,15 @@
     padding-right: 10vw;
     font-size: 1.4rem;
   }
+  .easteregg_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
   .easteregg_section button {
+    padding: 5% 4%;
     font-size: 1.4rem;
+    margin-bottom: 15%;
   }
 }
 @media screen and (max-width: 375px) {
