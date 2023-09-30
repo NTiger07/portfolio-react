@@ -11,7 +11,7 @@ const About = (props) => {
         <div className="about_section-image">
           <img src="" alt="favour" />
         </div>
-        <div className="about_section-content">
+        <div className="about_section-content" id="scrollabout">
           <span>I'm Favour Olaleru</span>
           <p>
             I specialize in designing and developing user-friendly web

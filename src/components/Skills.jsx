@@ -5,6 +5,7 @@ import css from "../svgs/CSS.svg";
 import js from "../svgs/JavaScript.svg";
 import ts from "../svgs/TypeScript.svg";
 import react from "../svgs/React-Dark.svg";
+import tailwind from "../svgs/TailwindCSS-Dark.svg"
 import axios from "../svgs/axios.svg";
 import api from "../svgs/api.svg";
 import postman from "../svgs/postman.svg";
@@ -68,6 +69,15 @@ const Skills = (props) => {
         >
           <img src={react} alt="react" />
           ReactJS
+        </span>
+        <span
+          ref={skillsanim}
+          className={`${elementIsVisible ? "zoomIn" : ""}${
+            props.disableAnimations ? "disable_animations" : ""
+          }`}
+        >
+          <img src={tailwind} alt="tailwind" />
+          TailwindCSS
         </span>
         <span
           ref={skillsanim}

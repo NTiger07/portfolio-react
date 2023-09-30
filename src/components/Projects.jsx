@@ -65,7 +65,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div className="project_card">
+        <div className="project_card even" id="scrollproj">
           <div className="project_image evenback">
             <span>De Armas</span>
             <img src={weather} alt="projectimage" />
@@ -177,7 +177,7 @@ const Projects = (props) => {
             </div>
           </div>
         </div>
-        <div className="project_card">
+        <div className="project_card even">
           <div className="project_image evenback">
             <span>Easy Bank</span>
             <img src={easybank} alt="projectimage" />

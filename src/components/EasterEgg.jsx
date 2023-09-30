@@ -76,8 +76,10 @@ export default function EasterEgg(props) {
 
   return (
     <div className="easteregg_section" id="scrolleast">
-      <button onClick={handleSnap}>Click for Easter Egg</button>
-      <span className="amo">I love you</span>
+      <div className="easteregg_container">
+        <button onClick={handleSnap}>Click for Easter Egg</button>
+        <span className="amo">I love you</span>
+      </div>
     </div>
   );
 }
