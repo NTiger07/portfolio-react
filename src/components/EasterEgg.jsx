@@ -11,7 +11,7 @@ export default function EasterEgg(props) {
     const fadehero = document.getElementsByClassName("fedev")[0];
     const fadeabout = document.getElementsByClassName("about_section-links")[0];
     const fadeproj = document.getElementsByClassName("ana")[0];
-    const fadeeaster = document.getElementsByClassName("amo")[0];
+    // const fadeeaster = document.getElementsByClassName("amo")[0];
 
     function preventScroll(e) {
       e.preventDefault();
@@ -50,9 +50,9 @@ export default function EasterEgg(props) {
     }
 
     const linesOfCode = [
-      "fadeeaster.className = 'amo fade-out'",
-      "props.setDisableAnimations(true)",
       "scrollhero.scrollIntoView({ behavior: 'smooth' })",
+      // "fadeeaster.className = 'amo fade-out'",
+      "props.setDisableAnimations(true)",
       "fadehero.className = 'fedev fade-out '",
       "console.log('hero done')",
       "scrollproj.scrollIntoView({ behavior: 'smooth' })",
@@ -64,7 +64,7 @@ export default function EasterEgg(props) {
       "scrolleaster.scrollIntoView({ behavior: 'smooth' })",
       "props.setDisableAnimations(false)",
       "enableScroll()",
-      "fadeeaster.className = 'amo'",
+      // "fadeeaster.className = 'amo'",
       "fadeproj.className = 'ana'",
       "fadeabout.className = 'about_section-links'",
       "fadehero.className = 'fedev'",
@@ -78,7 +78,7 @@ export default function EasterEgg(props) {
     <div className="easteregg_section" id="scrolleast">
       <div className="easteregg_container">
         <button onClick={handleSnap}>Click for Easter Egg</button>
-        <span className="amo">I love you</span>
+        {/* <span className="amo">I love you</span> */}
       </div>
     </div>
   );
