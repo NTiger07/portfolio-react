@@ -1,6 +1,7 @@
 import React from "react";
 import resume from "../svgs/resume.svg";
 import repo from "../svgs/repo.svg";
+import favour from "../favour.jpg"
 import "./About.css";
 
 const About = (props) => {
@@ -9,7 +10,7 @@ const About = (props) => {
       <h1>ABOUT ME</h1>
       <div className="row">
         <div className="about_section-image">
-          <img src="" alt="favour" />
+          <img src={favour} alt="favour" />
         </div>
         <div className="about_section-content" id="scrollabout">
           <span>I'm Favour Olaleru</span>

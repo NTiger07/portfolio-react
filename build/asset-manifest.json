@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f071409d.css",
-    "main.js": "/static/js/main.6469d112.js",
+    "main.css": "/static/css/main.b98dc671.css",
+    "main.js": "/static/js/main.09037e09.js",
     "static/media/weather.png": "/static/media/weather.7595059a616877907b63.png",
     "static/media/recipe.png": "/static/media/recipe.64572e52cf24493fc0b1.png",
+    "static/media/favour.jpg": "/static/media/favour.c55fdeedb11919fa5092.jpg",
     "static/media/room.png": "/static/media/room.967b759bb6e8833b48b1.png",
     "static/media/easybank.png": "/static/media/easybank.2a8d2a617b1017fa9c11.png",
     "static/media/LexendDeca-VariableFont_wght.ttf": "/static/media/LexendDeca-VariableFont_wght.85a26ab7491852266e9b.ttf",
@@ -35,11 +36,11 @@
     "static/media/website.svg": "/static/media/website.ee4289fefdec852e0d30c4b6ffe293fc.svg",
     "static/media/close.svg": "/static/media/close.0d5b171756ac4eb2e610b213a8799995.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.dc022bac537a273572af58dec556ed7e.svg",
-    "main.f071409d.css.map": "/static/css/main.f071409d.css.map",
-    "main.6469d112.js.map": "/static/js/main.6469d112.js.map"
+    "main.b98dc671.css.map": "/static/css/main.b98dc671.css.map",
+    "main.09037e09.js.map": "/static/js/main.09037e09.js.map"
   },
   "entrypoints": [
-    "static/css/main.f071409d.css",
-    "static/js/main.6469d112.js"
+    "static/css/main.b98dc671.css",
+    "static/js/main.09037e09.js"
   ]
 }
