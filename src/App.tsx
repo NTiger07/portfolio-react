@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
   return (
-   <div className="text-[#fff]">start here</div>
+   <div className="min-h-[100vh]">start here</div>
   )
 }
 
