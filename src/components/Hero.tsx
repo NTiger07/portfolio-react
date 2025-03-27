@@ -8,7 +8,10 @@ const Hero = () => {
           Dolor nulla distinctio eveniet aperiam adipisci, temporibus sit obcaecati maxime sed ex.
         </p>
         <div className="flex items-center">
-          <button className="flex items-center"><img src="/svgs/document.svg" alt="" />Get Resume</button>
+          <button className="flex items-center">
+            <img src="/svgs/document.svg" alt="" />
+            Get Resume
+          </button>
           <button>Contact Me</button>
         </div>
       </div>
