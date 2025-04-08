@@ -7,14 +7,11 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import EasterEgg from "./EasterEgg";
-
 import "../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf";
 import "../fonts/Sacramento/Sacramento-Regular.ttf";
 import "../App.css";
 
 const App = () => {
-  const [disableAnimations, setDisableAnimations] = React.useState(false);
   return (
     <div className="main_container" id="scrollhero">
       <BrowserRouter>
@@ -24,14 +21,13 @@ const App = () => {
             element={
               <>
                 <Navbar />
-                <Hero disableAnimations={disableAnimations} />
+                <Hero />
                 <About />
-                <Skills disableAnimations={disableAnimations} />
+                <Skills />
                 <Projects />
                 <Contact />
                 <div className="footerroof"></div>
                 <Footer />
-                <EasterEgg setDisableAnimations={setDisableAnimations} />
               </>
             }
           />

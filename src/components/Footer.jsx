@@ -17,13 +17,6 @@ const Footer = () => {
         <h2>Follow me on</h2>
         <div className="links_container">
           <a
-            href="https://twitter.com/FavourOlaleru"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={twitter} alt="twitter" />
-          </a>
-          <a
             href="https://github.com/NTiger07"
             target="_blank"
             rel="noreferrer"

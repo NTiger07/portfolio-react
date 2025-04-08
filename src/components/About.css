@@ -23,7 +23,9 @@
 .about_section-image {
   width: 40%;
   height: 400px;
-  border-radius: 30px
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
 }
 .about_section-image img {
   width: -webkit-fill-available;
@@ -39,17 +41,18 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.about_section-content span {
+.about_section-content h2 {
   text-align: center;
   font-size: 2vw;
   font-weight: bold;
+  padding-bottom: 2%;
 }
 .about_section-content p {
-  font-size: 1.1vw;
+  font-size: 1rem;
   padding-bottom: 20px;
 }
 .about_section-links {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 8px 12px;
   background-color: transparent;
   font-size: 1vw;

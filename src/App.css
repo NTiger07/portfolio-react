@@ -103,27 +103,3 @@ button {
   -webkit-animation: dissolveInBottom 0.7s ease-in-out;
   animation: dissolveInBottom 0.7s ease-in-out;
 }
-
-@-webkit-keyframes zoomIn {
-  0% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes zoomIn {
-  0% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-.zoomIn {
-  -webkit-animation: zoomIn 0.7s ease-out;
-  animation: zoomIn 0.7s ease-out;
-}
-.disable_animations {
-  animation: none;
-}

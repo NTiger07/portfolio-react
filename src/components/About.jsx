@@ -13,19 +13,20 @@ const About = (props) => {
           <img src={favour} alt="favour" />
         </div>
         <div className="about_section-content" id="scrollabout">
-          <span>I'm Favour Olaleru</span>
+          <h2>I'm Favour Olaleru</h2>
           <p>
-            I specialize in designing and developing user-friendly web
-            interfaces that are visually appealing and easy to navigate. With a
-            solid understanding of HTML, CSS, and JavaScript, I am able to
-            create responsive and interactive websites that adapt to various
-            screen sizes and devices.
+            I specialize in building fullstack web applications with clean,
+            intuitive interfaces and robust, scalable architecture. I work with
+            TypeScript and frameworks like React and Next.js on the
+            frontend, while using Node.js, Express and MongoDB to
+            handle the backend and data logic.
           </p>
           <p>
-            My skills also include the use of frameworks such as React, as well
-            as working with APIs to connect the frontend to the backend. My goal
-            is to create a seamless user experience that enhances engagement and
-            drives conversions.
+            I use these tools to create seamless user experiences, integrate
+            third-party APIs, manage data efficiently, and ensure smooth
+            interaction between the client and server. My goal is to deliver
+            well-rounded applications that are responsive, maintainable, and
+            aligned with both user needs and business goals.
           </p>
           <p>
             In my spare time, I like to research the newest advancements in
@@ -35,14 +36,21 @@ const About = (props) => {
           <div className="about_section-links">
             <span>
               <img src={resume} alt="resume" />
-              <a href="https://drive.google.com/file/d/1e9AXHgAbbSlqV0tcTWyZExfVYycR3-1Z/view?usp=sharing">
+              <a 
+              href="https://drive.google.com/file/d/1xqdFzvB5UMPmqQUpyJE2csarK5vWE2oV/view?usp=sharing" 
+              target="_blank"
+              rel="noreferrer"
+              >
                 Get Resume
               </a>
             </span>
             /
             <span>
               <img src={repo} alt="repo" />
-              <a href="https://github.com/NTiger07">View My Repo</a>
+              <a href="https://github.com/NTiger07"
+              target="_blank"
+              rel="noreferrer"
+              >View My Repo</a>
             </span>
           </div>
         </div>

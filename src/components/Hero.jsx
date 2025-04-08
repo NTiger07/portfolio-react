@@ -1,11 +1,11 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import twitter from "../svgs/twitter.svg";
+import { Link } from "react-router-dom";
 import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
-const Hero = (props) => {
+const Hero = () => {
   const { ref: heroanim, inView: elementIsVisible } = useInView();
   return (
     <div className="hero_section" id="scrollhero">
@@ -13,26 +13,26 @@ const Hero = (props) => {
         ref={heroanim}
         className={`hero_section-content ${
           elementIsVisible ? "dissolveInBottom" : ""
-        } ${props.disableAnimations ? "disable_animations" : ""}`}
+        } `}
       >
         <h1>HI, MY NAME IS</h1>
         <span>Favour Olaleru.</span>
-        <span id="fedev">I Am A Front-End Developer.</span>
+        <span id="fedev">I Am A Fullstack Developer.</span>
         <p className="fedev">
-          I am a skilled frontend developer with expertise in HTML, CSS,
-          JavaScript, and React. I develop user-friendly web interfaces that are
-          visually appealing and easy to navigate, with a focus on creating
-          seamless user experience.
+          I'm a fullstack developer with a solid grasp of both frontend and
+          backend tech. I create clean, user-friendly interfaces and build
+          scalable, well-structured systems that support smooth, reliable
+          performance.
         </p>
       </div>
       <div className="hero_section-links">
-        <a
+        {/* <a
           href="https://twitter.com/FavourOlaleru"
           target="_blank"
           rel="noreferrer"
         >
           <img src={twitter} alt="twitter" />
-        </a>
+        </a> */}
         <a
           href="https://www.linkedin.com/in/favourolaleru/"
           target="_blank"
@@ -47,7 +47,7 @@ const Hero = (props) => {
       <div
         className={`hero_section-contact ${
           elementIsVisible ? "dissolveInTop" : ""
-        }${props.disableAnimations ? "disable_animations" : ""}`}
+        }`}
       >
         <button>
           <svg
@@ -59,9 +59,7 @@ const Hero = (props) => {
             <path d="M20 4H6c-1.103 0-2 .897-2 2v5h2V8l6.4 4.8a1.001 1.001 0 0 0 1.2 0L20 8v9h-8v2h8c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-7 6.75L6.666 6h12.668L13 10.75z"></path>
             <path d="M2 12h7v2H2zm2 3h6v2H4zm3 3h4v2H7z"></path>
           </svg>
-          <a href="mailto:falaleru@gmail.com" target="_blank" rel="noreferrer">
-            Contact Me
-          </a>
+          <Link to="/contact">Contact Me</Link>
         </button>
       </div>
     </div>
