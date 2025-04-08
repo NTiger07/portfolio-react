@@ -1,5 +1,4 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import js from "../svgs/JavaScript.svg";
 import ts from "../svgs/TypeScript.svg";
 import next from "../svgs/NextJS.svg";

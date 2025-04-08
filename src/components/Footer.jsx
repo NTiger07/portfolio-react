@@ -1,5 +1,4 @@
 import React from "react";
-import twitter from "../svgs/twitter.svg";
 import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Footer.css";
