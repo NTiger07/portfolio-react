@@ -10,6 +10,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center">
                 <span><img src="/svgs/github.svg" alt="" className="w-5" /></span>
+                {/* https://drive.google.com/file/d/1xqdFzvB5UMPmqQUpyJE2csarK5vWE2oV/view?usp=sharing */}
                 <button className="flex items-center"><img src="/svgs/document.svg" alt="" />Get Resume</button>
 
             </div>
