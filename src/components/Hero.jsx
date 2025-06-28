@@ -2,6 +2,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 import x from "../svgs/x.svg";
+import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Hero.css";
 
@@ -27,19 +28,19 @@ const Hero = () => {
       </div>
       <div className="hero_section-links">
         <a
-          href="https://x.com/ipomjiuy"
+          href="https://x.com/freddie_defi"
           target="_blank"
           rel="noreferrer"
         >
           <img src={x} alt="x" />
         </a>
-        {/* <a
-          href="https://www.linkedin.com/in/favourolaleru/"
+        <a
+          href="https://www.linkedin.com/in/favour-o-799755223/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="linkedin" />
-        </a> */}
+        </a>
         <a href="https://github.com/NTiger07" target="_blank" rel="noreferrer">
           <img src={github} alt="github" />
         </a>

@@ -1,5 +1,6 @@
 import React from "react";
 import x from "../svgs/x.svg";
+import linkedin from "../svgs/linkedin.svg";
 import github from "../svgs/github.svg";
 import "./Footer.css";
 
@@ -9,7 +10,7 @@ const Footer = () => {
       <span>
         Want me building stuff for you? Hit me on
         <button>
-          <a href="https://www.x.com/ipomjiuy/" className="footer_links">
+          <a href="https://www.x.com/freddie_defi/" className="footer_links">
             <img src={x} alt="X" />
           </a>
         </button>
@@ -25,11 +26,18 @@ const Footer = () => {
             <img src={github} alt="github" />
           </a>
           <a
-            href="https://www.x.com/ipomjiuy/"
+            href="https://www.x.com/freddie_defi/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={x} alt="X" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/favour-o-799755223/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="linkedin" />
           </a>
         </div>
       </div>
