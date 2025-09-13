@@ -7,14 +7,14 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer_section">
-      <span>
+      {/* <span>
         Want me building stuff for you? Hit me on
         <button>
           <a href="https://www.x.com/freddie_defi/" className="footer_links">
             <img src={x} alt="X" />
           </a>
         </button>
-      </span>
+      </span> */}
       <div className="footer_links">
         <h2>Follow me on</h2>
         <div className="links_container">
