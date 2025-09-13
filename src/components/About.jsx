@@ -1,7 +1,7 @@
 import React from "react";
 import resume from "../svgs/resume.svg";
 import repo from "../svgs/repo.svg";
-import favour from "../favour.jpg"
+import favour from "../favour.jpg";
 import "./About.css";
 
 const About = (props) => {
@@ -17,9 +17,9 @@ const About = (props) => {
           <p>
             I specialize in building fullstack web applications with clean,
             intuitive interfaces and robust, scalable architecture. I work with
-            TypeScript and frameworks like React and Next.js on the
-            frontend, while using Node.js, Express and MongoDB to
-            handle the backend and data logic.
+            TypeScript and frameworks like React and Next.js on the frontend,
+            while using Node.js, Express and MongoDB to handle the backend and
+            data logic.
           </p>
           <p>
             I use these tools to create seamless user experiences, integrate
@@ -36,10 +36,10 @@ const About = (props) => {
           <div className="about_section-links">
             <span>
               <img src={resume} alt="resume" />
-              <a 
-              href="https://drive.google.com/file/d/1xqdFzvB5UMPmqQUpyJE2csarK5vWE2oV/view?usp=sharing" 
-              target="_blank"
-              rel="noreferrer"
+              <a
+                href="https://drive.google.com/file/d/1dr_sN0VI478tKV51SnK35Lw2UmjZJ0Nv/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer"
               >
                 Get Resume
               </a>
@@ -47,10 +47,13 @@ const About = (props) => {
             /
             <span>
               <img src={repo} alt="repo" />
-              <a href="https://github.com/NTiger07"
-              target="_blank"
-              rel="noreferrer"
-              >View My Repo</a>
+              <a
+                href="https://github.com/NTiger07"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View My Repo
+              </a>
             </span>
           </div>
         </div>

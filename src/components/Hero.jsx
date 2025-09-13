@@ -27,15 +27,11 @@ const Hero = () => {
         </p>
       </div>
       <div className="hero_section-links">
-        <a
-          href="https://x.com/freddie_defi"
-          target="_blank"
-          rel="noreferrer"
-        >
+        {/* <a href="https://x.com/freddie_defi" target="_blank" rel="noreferrer">
           <img src={x} alt="x" />
-        </a>
+        </a> */}
         <a
-          href="https://www.linkedin.com/in/favour-o-799755223/"
+          href="https://www.linkedin.com/in/olalerufavour/"
           target="_blank"
           rel="noreferrer"
         >
