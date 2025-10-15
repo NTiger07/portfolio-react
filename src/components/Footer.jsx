@@ -33,7 +33,7 @@ const Footer = () => {
             <img src={x} alt="X" />
           </a> */}
           <a
-            href="https://www.linkedin.com/in/olalerufavour/"
+            href="https://www.linkedin.com/in/favolaleru/"
             target="_blank"
             rel="noreferrer"
           >
