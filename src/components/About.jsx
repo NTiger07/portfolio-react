@@ -37,7 +37,7 @@ const About = (props) => {
             <span>
               <img src={resume} alt="resume" />
               <a
-                href="https://drive.google.com/file/d/1dr_sN0VI478tKV51SnK35Lw2UmjZJ0Nv/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1ADCvwBLZPX-loI_d1bD5vi6ReKLEhwe7/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
