@@ -5,11 +5,11 @@ const sections = ['about', 'experience', 'projects', 'achievements', 'stack', 'c
 export default function Navbar() {
   const [hidden, setHidden] = useState(false)
   const [active, setActive] = useState('')
+  const [menuOpen, setMenuOpen] = useState(false)
   const lastY = useRef(0)
 
   useEffect(() => {
     let ticking = false
-
     const onScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
@@ -21,14 +21,12 @@ export default function Navbar() {
         ticking = true
       }
     }
-
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   useEffect(() => {
     const observers: IntersectionObserver[] = []
-
     sections.forEach(id => {
       const el = document.getElementById(id)
       if (!el) return
@@ -39,24 +37,65 @@ export default function Navbar() {
       io.observe(el)
       observers.push(io)
     })
-
     return () => observers.forEach(io => io.disconnect())
   }, [])
 
+  const handleNavClick = (id: string) => {
+    setMenuOpen(false)
+    const el = document.getElementById(id)
+    el?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
-    <div className={`nav-wrap${hidden ? ' hidden' : ''}`} id="nav-wrap">
-      <nav>
-        <a href="#hero" className="nav-logo">Favour Olaleru</a>
-        {sections.map(id => (
-          <a
-            key={id}
-            href={`#${id}`}
-            className={`nav-link${active === id ? ' active' : ''}`}
+    <>
+      <div className={`nav-wrap${hidden ? ' hidden' : ''}`} id="nav-wrap">
+        {/* Desktop nav */}
+        <nav className="nav-desktop">
+          <a href="#hero" className="nav-logo">Favour Olaleru</a>
+          {sections.map(id => (
+            <a
+              key={id}
+              href={`#${id}`}
+              className={`nav-link${active === id ? ' active' : ''}`}
+            >
+              {id.charAt(0).toUpperCase() + id.slice(1)}
+            </a>
+          ))}
+        </nav>
+
+        {/* Mobile nav */}
+        <nav className="nav-mobile">
+          <span className="nav-mobile-logo">
+            {active ? active.charAt(0).toUpperCase() + active.slice(1) : 'Home'}
+          </span>
+          <button
+            className={`nav-hamburger${menuOpen ? ' open' : ''}`}
+            onClick={() => setMenuOpen(o => !o)}
+            aria-label="Toggle menu"
           >
-            {id.charAt(0).toUpperCase() + id.slice(1)}
-          </a>
-        ))}
-      </nav>
-    </div>
+            <span />
+            <span />
+            <span />
+          </button>
+        </nav>
+      </div>
+
+      {/* Mobile menu overlay */}
+      {menuOpen && (
+        <div className="nav-mobile-menu" onClick={() => setMenuOpen(false)}>
+          <div className="nav-mobile-menu-inner" onClick={e => e.stopPropagation()}>
+            {sections.map(id => (
+              <button
+                key={id}
+                className={`nav-mobile-item${active === id ? ' active' : ''}`}
+                onClick={() => handleNavClick(id)}
+              >
+                {id.charAt(0).toUpperCase() + id.slice(1)}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </>
   )
 }

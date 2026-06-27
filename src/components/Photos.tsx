@@ -18,7 +18,6 @@ export default function Photos() {
             </div>
           ))}
         </div>
-        <p className="photos-caption">Drop your images above — any aspect ratio works.</p>
       </div>
     </section>
   )
