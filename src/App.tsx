@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
-import Projects from './components/Projects'
+import PersonalProjects from './components/PersonalProjects'
 import Stack from './components/Stack'
 import Photos from './components/Photos'
 import Contact from './components/Contact'
@@ -17,7 +17,7 @@ export default function App() {
         <div className="divider" />
         <About />
         <Experience />
-        <Projects />
+        <PersonalProjects />
         <Stack />
         <Photos />
         <Contact />

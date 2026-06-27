@@ -9,11 +9,11 @@ const stackGroups = [
   },
   {
     name: 'Backend & Database',
-    pills: ['Node.js', 'Express.js', 'Spring Boot', 'Socket.io', 'MongoDB', 'Redis', 'REST API'],
+    pills: ['Node.js', 'Express.js', 'Socket.io', 'MongoDB', 'PostgreSQL', 'Redis', 'REST API'],
   },
   {
     name: 'Tools & Infrastructure',
-    pills: ['Docker', 'Cloudinary', 'MinIO', 'Git', 'GitHub', 'Postman', 'Netlify', 'npm', 'VS Code'],
+    pills: ['Docker', 'GitHub Actions', 'Firebase', 'Supabase', 'Cloudinary', 'MinIO', 'Git', 'Postman', 'Netlify'],
   },
 ]
 
@@ -21,7 +21,6 @@ export default function Stack() {
   return (
     <section id="stack">
       <div className="container">
-        <div className="sec-label">04 — Tech Stack</div>
         <h2 className="section-title" style={{ marginBottom: '48px' }}>Stack.</h2>
         <div className="stack-card">
           {stackGroups.map(group => (

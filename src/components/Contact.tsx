@@ -14,7 +14,6 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <div className="sec-label">06 — Contact</div>
         <div className="contact-card">
           <div className="contact-left">
             <h2 className="contact-title">Let's<br />work<br />together.</h2>

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-const sections = ['about', 'experience', 'projects', 'stack', 'contact']
+const sections = ['about', 'experience', 'projects', 'achievements', 'stack', 'contact']
 
 export default function Navbar() {
   const [hidden, setHidden] = useState(false)

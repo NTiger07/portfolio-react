@@ -1,7 +1,9 @@
+import React from 'react'
+
 interface Project {
   number: string
   name: string
-  desc: string
+  desc: React.ReactNode
   tags: string[]
   links: { label: string; href: string }[]
 }
@@ -12,20 +14,22 @@ interface Achievement {
   desc: string
 }
 
+const b = (text: string): React.ReactNode => (
+  <strong style={{ color: 'rgba(255,255,255,0.75)', fontWeight: 500 }}>{text}</strong>
+)
+
 const projects: Project[] = [
   {
-    number: '01 / 04',
-    name: 'MerryText',
-    desc: 'A festive messaging web app that transforms ordinary messages into extraordinary holiday experiences. Features 7 stunning, handcrafted templates for spreading joy this season — built and deployed as a live product.',
-    tags: ['React', 'TypeScript', 'CSS3'],
-    links: [
-      { label: 'Live Site', href: 'https://merrytext.com' },
-    ],
+    number: '01 / 03',
+    name: 'AI Image-to-LaTeX System',
+    desc: <span>Built an {b('Express.js')} server integrating the {b('Google Gemini API')} to perform OCR, converting images of mathematical equations into LaTeX code with {b('95% accuracy')}. Applied robust error handling to manage API failures, invalid inputs, and file processing errors.</span>,
+    tags: ['JavaScript', 'Express.js', 'Google Gemini API', 'Node.js', 'Multer.js'],
+    links: [{ label: 'View Repo', href: 'https://github.com/ntiger07' }],
   },
   {
-    number: '02 / 04',
+    number: '02 / 03',
     name: 'Hotel Management System',
-    desc: 'A full-stack web app for scheduling and managing hospital stays, with patient and doctor dashboards, appointment slot management, and real-time status updates. Deployed on OnRender.',
+    desc: <span>A full-stack web app built with {b('React')}, {b('TypeScript')}, and {b('MongoDB')} for scheduling and managing hospital stays, with patient and doctor dashboards, appointment slot management, and real-time status updates. Deployed on {b('OnRender')}.</span>,
     tags: ['TypeScript', 'React', 'TailwindCSS', 'MUI', 'Express.js', 'MongoDB'],
     links: [
       { label: 'View Repo', href: 'https://github.com/ntiger07' },
@@ -33,16 +37,9 @@ const projects: Project[] = [
     ],
   },
   {
-    number: '03 / 04',
-    name: 'AI Image-to-LaTeX System',
-    desc: 'Built an Express.js server integrating the Google Gemini API to perform OCR, converting images of mathematical equations into LaTeX code with 95% accuracy. Applied robust error handling to manage API failures, invalid inputs, and file processing errors.',
-    tags: ['JavaScript', 'Express.js', 'Google Gemini API', 'Node.js', 'Multer.js'],
-    links: [{ label: 'View Repo', href: 'https://github.com/ntiger07' }],
-  },
-  {
-    number: '04 / 04',
+    number: '03 / 03',
     name: 'Recipe App',
-    desc: 'A React web application using the Edamam API to retrieve and display recipes from user search queries, with clean browsing by ingredients, diet, cuisine origin and meal type. Deployed to Netlify.',
+    desc: <span>A {b('React')} web application using the {b('Edamam API')} to retrieve and display recipes from user search queries, with clean browsing by ingredients, diet, cuisine origin and meal type. Deployed to {b('Netlify')}.</span>,
     tags: ['ReactJS', 'CSS3', 'Edamam API'],
     links: [
       { label: 'View Repo', href: 'https://github.com/ntiger07' },
@@ -55,30 +52,27 @@ const achievements: Achievement[] = [
   {
     placement: '🥉 3rd Place',
     title: 'Microsoft AI Skills Hackathon',
-    desc: 'Built and pitched RiskGuard AI, a real-time telecom risk intelligence platform for MTN Nigeria.',
+    desc: 'Built and pitched RiskGuard AI, a real-time telecom risk intelligence platform designed for MTN Nigeria. The platform leverages AI to detect and surface risk signals across telecom operations, enabling faster, data-driven decision making. Placed 3rd out of competing teams at the Microsoft-organised event.',
   },
   {
     placement: '🏆 Top 8',
     title: 'DSN × Bluechip LLM Agent Challenge',
-    desc: 'Built Bukka AI, a multi-agent Nigerian restaurant recommendation system using a three-agent pipeline.',
+    desc: 'Built Bukka AI, a multi-agent Nigerian restaurant recommendation system powered by a three-agent pipeline — one agent for query understanding, one for restaurant matching, and one for personalised response generation. Placed Top 8 in a national challenge focused on real-world LLM agent applications.',
   },
   {
     placement: '🏆 Top 10 of 500+',
     title: 'Enyata × Interswitch Buildathon',
-    desc: 'Built and pitched CraftID, a platform converting informal artisans\' payment history into verifiable credit profiles.',
+    desc: 'Built and pitched CraftID, a financial inclusion platform that converts informal artisans\' transaction and payment history into verifiable credit profiles, enabling access to formal financial services. Finished Top 10 out of 500+ participants at the Enyata and Interswitch-backed buildathon.',
   },
 ]
 
-export default function Projects() {
+export default function PersonalProjects() {
   return (
     <>
       <section id="projects">
         <div className="container">
-          <div className="projects-header">
-            <div className="sec-label" style={{ marginBottom: 0 }}>03 — Projects</div>
-            <span className="project-count">{projects.length} projects</span>
-          </div>
-          <h2 className="section-title" style={{ marginBottom: '48px' }}>Projects.</h2>
+          
+          <h2 className="section-title" style={{ marginBottom: '48px' }}>Personal Projects.</h2>
           <div className="project-list">
             {projects.map(project => (
               <div className="project-card" key={project.name}>
@@ -116,7 +110,6 @@ export default function Projects() {
 
       <section id="achievements">
         <div className="container">
-          <div className="sec-label">04 — Achievements</div>
           <h2 className="section-title" style={{ marginBottom: '48px' }}>Achievements.</h2>
           <div className="achievement-list">
             {achievements.map(ach => (

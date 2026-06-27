@@ -10,7 +10,6 @@ export default function Photos() {
   return (
     <section id="photos">
       <div className="container">
-        <div className="sec-label">05 — Photos</div>
         <h2 className="section-title" style={{ marginBottom: '48px' }}>A glimpse.</h2>
         <div className="photo-grid">
           {photoCaptions.map(caption => (

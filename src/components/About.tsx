@@ -2,7 +2,6 @@ export default function About() {
   return (
     <section id="about">
       <div className="container">
-        <div className="sec-label">01 — About</div>
         <div className="about-grid">
           <div className="about-left">
             <h2 className="about-heading">
