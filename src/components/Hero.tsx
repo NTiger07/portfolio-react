@@ -7,12 +7,12 @@ export default function Hero() {
         </h1>
         <p className="hero-role">Fullstack Engineer.</p>
         <p className="hero-bio">
-          I build clean, user-friendly interfaces and scalable backend systems.
-          From frontend to backend, I thrive at the intersection of elegant
-          design and performant engineering.
+          Software engineer passionate about scalable systems, AI-powered products,
+          and shipping things that actually work. Currently building multi-chain DeFi
+          infrastructure at CelerFi.
         </p>
         <div className="hero-cta">
-          <a href="#experience" className="btn-primary">View Experience</a>
+          <a href="#projects" className="btn-primary">View Projects</a>
           <a href="/Favour_Olaleru_Resume.pdf" className="btn-ghost" target="_blank" rel="noopener noreferrer">
             Download CV
           </a>

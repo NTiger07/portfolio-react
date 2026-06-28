@@ -1,19 +1,28 @@
 const stackGroups = [
   {
     name: 'Languages',
-    pills: ['JavaScript', 'TypeScript', 'Python', 'Java'],
+    accent: '#B8995C',
+    reverse: false,
+    static: true,
+    skills: ['TypeScript', 'JavaScript', 'Python', 'Java'],
   },
   {
     name: 'Frontend',
-    pills: ['React', 'Next.js', 'TailwindCSS', 'RadixUI', 'Material UI', 'Redux', 'Framer Motion'],
+    accent: '#7C9EE8',
+    reverse: true,
+    skills: ['React', 'Next.js', 'Framer Motion', 'TailwindCSS', 'RadixUI', 'Redux', 'Material UI', 'React', 'Next.js', 'Framer Motion', 'TailwindCSS', 'RadixUI', 'Redux', 'Material UI'],
   },
   {
-    name: 'Backend & Database',
-    pills: ['Node.js', 'Express.js', 'Socket.io', 'MongoDB', 'PostgreSQL', 'Redis', 'REST API'],
+    name: 'Backend & DB',
+    accent: '#6ECFA0',
+    reverse: false,
+    skills: ['Node.js', 'Express.js', 'Socket.io', 'PostgreSQL', 'MongoDB', 'Redis', 'REST API', 'Node.js', 'Express.js', 'Socket.io', 'PostgreSQL', 'MongoDB', 'Redis', 'REST API'],
   },
   {
-    name: 'Tools & Infrastructure',
-    pills: ['Docker', 'GitHub Actions', 'Firebase', 'Supabase', 'Cloudinary', 'MinIO', 'Git', 'Postman', 'Netlify'],
+    name: 'Infra & Tools',
+    accent: '#C47EE8',
+    reverse: true,
+    skills: ['Docker', 'GitHub Actions', 'Firebase', 'Supabase', 'Cloudinary', 'MinIO', 'Netlify', 'Docker', 'GitHub Actions', 'Firebase', 'Supabase', 'Cloudinary', 'MinIO', 'Netlify'],
   },
 ]
 
@@ -22,14 +31,34 @@ export default function Stack() {
     <section id="stack">
       <div className="container">
         <h2 className="section-title" style={{ marginBottom: '48px' }}>Stack.</h2>
-        <div className="stack-card">
+
+        <div className="marquee-board">
           {stackGroups.map(group => (
-            <div className="stack-group" key={group.name}>
-              <p className="stack-group-name">{group.name}</p>
-              <div className="stack-pills">
-                {group.pills.map(pill => (
-                  <span className="stack-pill" key={pill}>{pill}</span>
-                ))}
+            <div className="marquee-row" key={group.name}>
+              {/* Fixed label */}
+              <div
+                className="marquee-label"
+                style={{ color: group.accent }}
+              >
+                {group.name}
+              </div>
+
+              {/* Scrolling track */}
+              <div className="marquee-track">
+                <div
+                  className="marquee-content"
+                  style={{
+                    animationDirection: group.reverse ? 'reverse' : 'normal',
+                    ...(group.static ? { animation: 'none' } : {}),
+                  }}
+                >
+                  {group.skills.map((skill, i) => (
+                    <span key={`${skill}-${i}`} className="marquee-item" style={{ '--m-accent': group.accent } as React.CSSProperties}>
+                      {skill}
+                      <span className="marquee-sep" style={{ color: group.accent }}>✦</span>
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

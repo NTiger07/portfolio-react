@@ -14,12 +14,13 @@ export default function About() {
           <div className="about-right" style={{ paddingTop: '8px' }}>
             <p className="about-para">
               I'm Favour, a fullstack engineer and Mathematics student at the University of Lagos.
-              I specialize in building backend systems that handle real load, including auth, real-time infra, and APIs.
-              I also craft clean, performant frontend interfaces to deliver a complete product.
+              I specialize in building backend systems that handle real load, including auth, real-time infra,
+              and APIs, and integrating AI to make products smarter: from LLM-powered pipelines and
+              multi-agent systems to AI-assisted features shipped in production.
             </p>
             <p className="about-para">
               I've shipped production systems serving 9,000+ users, placed in three competitive
-              hackathons, and I'm currently engineering at Juncta, a multi-chain DeFi protocol.
+              hackathons, and I'm currently engineering at CelerFi, a multi-chain DeFi protocol.
               My mathematics background shapes how I think about problems: precisely, structurally,
               and from first principles.
             </p>
