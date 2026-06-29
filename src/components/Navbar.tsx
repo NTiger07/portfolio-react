@@ -27,7 +27,8 @@ export default function Navbar() {
 
   useEffect(() => {
     const observers: IntersectionObserver[] = []
-    sections.forEach(id => {
+    const allSections = ['hero', ...sections]
+    allSections.forEach(id => {
       const el = document.getElementById(id)
       if (!el) return
       const io = new IntersectionObserver(
@@ -66,7 +67,7 @@ export default function Navbar() {
         {/* Mobile nav */}
         <nav className="nav-mobile">
           <span className="nav-mobile-logo">
-            {active ? active.charAt(0).toUpperCase() + active.slice(1) : 'Home'}
+            {active && active !== 'hero' ? active.charAt(0).toUpperCase() + active.slice(1) : 'Favour Olaleru'}
           </span>
           <button
             className={`nav-hamburger${menuOpen ? ' open' : ''}`}
