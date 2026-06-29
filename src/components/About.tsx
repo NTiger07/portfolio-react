@@ -8,7 +8,6 @@ export default function About() {
               Who<br />I am.
             </h2>
             <div className="photo-placeholder">
-              <span>Portrait photo</span>
             </div>
           </div>
           <div className="about-right" style={{ paddingTop: '8px' }}>

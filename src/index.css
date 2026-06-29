@@ -857,6 +857,8 @@ footer { border-top: 1px solid var(--border); padding: 28px 0; }
   .exp-item { grid-template-columns: 1fr; gap: 8px; padding: 36px 0; }
   .stack-grid { grid-template-columns: 1fr; }
   .stack-group-block { padding: 32px 28px; }
+  .marquee-label { width: 110px; font-size: clamp(14px, 2.5vw, 18px); padding-right: 16px; }
+  .marquee-item { font-size: 11px; }
   .photo-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; gap: 8px; }
   .photo-cell { grid-column: auto !important; grid-row: auto !important; aspect-ratio: 4/3; }
   .photo-cell:nth-child(1) img { object-position: top; }
@@ -897,6 +899,10 @@ footer { border-top: 1px solid var(--border); padding: 28px 0; }
   .proj-name { font-size: 32px; }
   .proj-desc { font-size: 15px; }
   .project-card { padding: 28px 24px; border-radius: 16px; grid-template-columns: 1fr; }
+  .marquee-row { height: 48px; }
+  .marquee-label { width: 80px; font-size: 13px; padding-right: 10px; }
+  .marquee-item { font-size: 9px; letter-spacing: 0.08em; padding: 0 4px; }
+  .marquee-content { animation-duration: 16s; }
   .stack-grid { grid-template-columns: 1fr; }
   .stack-group-block { padding: 28px 22px; }
   .stack-skill-item { font-size: 20px; padding: 8px 0; }
