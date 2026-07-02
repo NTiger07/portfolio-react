@@ -7,7 +7,8 @@ export default function About() {
             <h2 className="about-heading">
               Who<br />I am.
             </h2>
-            <div className="photo-placeholder">
+            <div className="photo-placeholder" style={{ background: 'none', display: 'block' }}>
+              <img src="/favour.png" alt="Favour Olaleru" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top left', borderRadius: '4px' }} />
             </div>
           </div>
           <div className="about-right" style={{ paddingTop: '8px' }}>
