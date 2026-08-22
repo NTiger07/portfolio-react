@@ -13,7 +13,7 @@ export default function About() {
           </div>
           <div className="about-right" style={{ paddingTop: '8px' }}>
             <p className="about-para">
-              I'm Favour, a fullstack engineer and Mathematics student at the University of Lagos.
+              I'm Favour, a fullstack engineer and Math & CS student at the University of Lagos.
               I specialize in building backend systems that handle real load, including auth, real-time infra,
               and APIs, and integrating AI to make products smarter: from LLM-powered pipelines and
               multi-agent systems to AI-assisted features shipped in production.

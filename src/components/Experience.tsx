@@ -26,8 +26,8 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: 'Nextvibeco',
-    period: 'Jan 2026 — Feb 2026',
-    role: 'Fullstack Engineer, Contract',
+    period: 'Jan 2026 — Mar 2026',
+    role: 'Software Engineer Intern',
     bullets: [
       <span>Engineered a real-time chat and gamification engine handling {b('1,000+ concurrent users')} with {b('<50ms latency')} using {b('Socket.io')}, {b('Express')}, and {b('Redis')}.</span>,
       <span>Architected an automated RSVP pipeline, eliminating {b('6+ hours')} of manual effort per event via background queues in {b('Redis')} and {b('MongoDB')}.</span>,
@@ -49,8 +49,8 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: 'CelerFi Inc.',
-    period: 'Aug 2025 — Present',
-    role: 'Frontend Engineer',
+    period: 'Mar 2026 — Present',
+    role: 'Software Engineer Intern',
     bullets: [
       <span>Constructed responsive B2B Web3 financial dashboards using {b('Next.js')} and {b('TypeScript')}, accelerating pre-beta client demonstrations by {b('40%')} through production-ready interface delivery.</span>,
       <span>Designed high-conversion landing page sections showcasing smart infrastructure, achieving a {b('95+ Lighthouse performance score')} via optimized SSR in {b('Next.js')}.</span>,

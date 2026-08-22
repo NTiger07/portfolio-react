@@ -34,15 +34,15 @@ const projects: Project[] = [
     image: '/bukka.png',
   },
   {
-    name: 'AI Image-to-LaTeX System',
+    name: 'MathScribe',
     desc: <span>Built an {b('Express.js')} server integrating the {b('Google Gemini API')} to perform OCR, converting images of mathematical equations into LaTeX code with {b('95% accuracy')}. Used {b('Multer.js')} for file upload handling and applied robust error handling to manage API failures, invalid inputs, and file processing errors cleanly across all edge cases.</span>,
     tags: ['JavaScript', 'Express.js', 'Google Gemini API', 'Node.js', 'Multer.js'],
-    links: [{ label: 'View Repo', href: 'https://github.com/NTiger07/gemini-latex' }],
+    links: [{ label: 'View Repo', href: 'https://github.com/NTiger07/mathscribe' }],
     image: '/latex.png',
   },
   {
     name: 'Hotel Management System',
-    desc: <span>A full-stack web app built with {b('React')}, {b('TypeScript')}, and {b('MongoDB')} for scheduling and managing hospital stays, with patient and doctor dashboards, appointment slot management, and real-time status updates. {b('Express.js')} powers the REST API backend, styled with {b('TailwindCSS')} and {b('Material UI')}. Deployed on {b('Render')}.</span>,
+    desc: <span>A full-stack web app built with {b('React')}, {b('TypeScript')}, and {b('MongoDB')} for scheduling and managing hotel stays, booking slot management, and real-time status updates. {b('Express.js')} powers the REST API backend, styled with {b('TailwindCSS')} and {b('Material UI')}. Deployed on {b('Render')}.</span>,
     tags: ['TypeScript', 'React', 'TailwindCSS', 'MUI', 'Express.js', 'MongoDB'],
     links: [
       { label: 'View Repo', href: 'https://github.com/NTiger07/hotel-src' },
