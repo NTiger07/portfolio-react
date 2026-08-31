@@ -13,19 +13,18 @@ export default function About() {
           </div>
           <div className="about-right" style={{ paddingTop: '8px' }}>
             <p className="about-para">
-              I'm Favour, a fullstack engineer and Math & CS student at the University of Lagos.
-              I specialize in building backend systems that handle real load, including auth, real-time infra,
-              and APIs, and integrating AI to make products smarter: from LLM-powered pipelines and
-              multi-agent systems to AI-assisted features shipped in production.
+              I'm a frontend engineer who can handle the backend too. I spend most of my time
+              in React and Next.js: building UIs, wiring up state, getting the details right.
+              But I've also built auth systems, real-time chat, AI pipelines, and payment integrations.
+              So when something needs doing, I just do it.
             </p>
             <p className="about-para">
-              I've shipped production systems serving 9,000+ users, placed in three competitive
-              hackathons, and I'm currently engineering at CelerFi, a multi-chain DeFi protocol.
-              My mathematics background shapes how I think about problems: precisely, structurally,
-              and from first principles.
+              9,000+ users on something I shipped. Top 3 in three hackathons. Right now I'm at
+              CelerFi working on Web3 financial dashboards. I studied maths, which basically means
+              I'm annoying about edge cases.
             </p>
             <p className="about-para" style={{ marginBottom: '40px' }}>
-              When I'm not building, I'm deep in AI research, anime, or a game I'll probably never finish.
+              Outside of work: AI stuff, anime, and a movie list I keep adding to but never clearing.
             </p>
             <div className="socials">
               <a href="https://linkedin.com/in/favolaleru" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>

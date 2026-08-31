@@ -60,7 +60,7 @@ export default function Contact() {
           <div className="contact-left">
             <h2 className="contact-title">Let's<br />work<br />together.</h2>
             <p className="contact-sub">
-              I'm open to new opportunities — whether you have a project in mind or just want
+              I'm open to new opportunities, whether you have a project in mind or just want
               to say hello, I'll get back to you.
             </p>
             <div className="contact-socials">
